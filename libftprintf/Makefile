@@ -14,13 +14,15 @@ OBJECTS =	ft_atoi.o ft_bzero.o ft_isalnum.o ft_isalpha.o \
 			ft_strnequ.o ft_strnew.o ft_strnstr.o ft_strrchr.o ft_strsplit.o \
 			ft_strstr.o ft_strsub.o ft_strtrim.o ft_tolower.o ft_toupper.o 
 
+SRCS = $(OBJECTS:.o=.c)
 
 all: $(NAME)
 
 $(NAME): $(OBJECTS)
 	ar rc $(NAME) $(OBJECTS)
 	ranlib $(NAME)
-$(OBJECTS) : libft.h
+$(OBJECTS) : %.o: %.c
+	$(CC) -c $(FLAGS) $< -o $@
 
 .PHONY : clean fclean
 clean :
