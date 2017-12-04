@@ -1,7 +1,8 @@
 #include <stdio.h>
-#include "libftprintf/libft.h"
+#include "libft.h"
+#include "ft_printf.h"
 int     main()
 {
-    printf("res: %+d\n", 323);
+    ft_printf("res: %+d\n", 323);
     return (1);
 }

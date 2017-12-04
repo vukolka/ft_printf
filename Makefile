@@ -1,8 +1,11 @@
 NAME=build
 FLAGS=-Wall -Wextra -Werror
-
-OBJECTS = *.o
+OBJECTS = ft_printf/ft_printf.o main.o
 all: $(NAME)
+
+$(OBJECTS) : %.o: %.c
+	$(CC) -c $(FLAGS) -I libftprintf/ -I ft_printf/ $< -o $@
+	
 
 $(NAME): $(OBJECTS)
 	$(MAKE) -C libftprintf/
