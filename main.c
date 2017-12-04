@@ -2,7 +2,6 @@
 #include "libftprintf/libft.h"
 int     main()
 {
-    ft_putendl("dfghj");
-    printf("sdfgh\n");
+    printf("res: %+d\n", 323);
     return (1);
 }
