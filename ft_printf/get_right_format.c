@@ -3,14 +3,17 @@
 
 char	*get_right_format(char *modstring, va_list ap)
 {
-	int	i;
+	static t_dict	*mods = NULL;
+	t_dict 			*curr;
+	int				i;
+	
 	i = 0;
+	if (!mods)
+		get_func_dict(&mods);
 	while (modstring[i])
 	{
-		if(modstring[i] == 'd' || modstring[i] == 'i')
-			return (ft_format_d(ap));
-		if(modstring[i] == 's')
-			return (va_arg(ap, char*));
+		if((curr = ft_dict_get(modstring + i, mods)))
+			return (curr->func(ap));
 		i++;
 	}
 	return (" ");
