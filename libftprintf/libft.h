@@ -17,6 +17,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <stdarg.h>
 
 typedef	struct			s_list
 {
@@ -29,12 +30,12 @@ typedef	struct			s_dict
 {
 	int					index;
 	char				*keyword;
-	unsigned long int	content;
+	char* 				(*func) (va_list);
 	struct s_dict		*next;
 }						t_dict;
 
 char					*ft_strndup(const char *src, size_t len);
-t_dict					*ft_dict_create(char *keyword, unsigned long int content);
+t_dict 					*ft_dict_create(char *keyword, char* (*func) (va_list));
 t_list					*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 char					**ft_strsplit(char const *s, char c);
 void					ft_strdel(char **as);

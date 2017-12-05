@@ -1,6 +1,6 @@
 #include "libft.h"
 
-t_dict  *ft_dict_create(char *keyword, unsigned long int content)
+t_dict  *ft_dict_create(char *keyword, char* (*func) (va_list))
 {
     t_dict *newdict;
 
@@ -8,7 +8,7 @@ t_dict  *ft_dict_create(char *keyword, unsigned long int content)
     if (!newdict)
         return (NULL);
     newdict->keyword = ft_strdup(keyword);
-    newdict->content = content;
+    newdict->func = func;
     newdict->index = 0;
     newdict->next = NULL;
     return (newdict);    
