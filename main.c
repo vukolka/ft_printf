@@ -3,6 +3,6 @@
 #include "ft_printf.h"
 int     main()
 {
-    ft_printf("res: %d\n", 323212);
-    return (1);
+    ft_printf("res: %d another number%d, one more number: %d\n", 42, 666, 123);
+    return (1);    
 }

@@ -7,6 +7,7 @@ int     ft_printf(const char *format, ...)
     size_t  i;
     char    *res;
     char    *mod;
+    char    *modstring;
 
     res = NULL;
     va_start(ap, format);
@@ -15,12 +16,16 @@ int     ft_printf(const char *format, ...)
     {
         if(format[i] == 37)
         {
-            mod = ft_format_d(va_arg(ap, int));
-            res = ft_conncat(res, format, i);
+            res = ft_conncat(res, format, i);            
+            i += get_modificator(format + i, &modstring);
+            mod = get_right_format(modstring, ap);
             res = ft_conncat(res, mod, ft_strlen(mod));
+            format += i;
+            i = 0;
         }
         i++;
     }
+    res = ft_conncat(res, format, ft_strlen(format));    
     va_end(ap);
     ft_putstr(res);
     free(res);
@@ -29,6 +34,12 @@ int     ft_printf(const char *format, ...)
 
 /*
 
-    this is a %s to be formated, %s
+    this is a %.2#s to be formated, %s
 
+    while (format[i])
+        if (%)
+            while (ismodificator())
+                save modificator into array
+            modify
+            
 */

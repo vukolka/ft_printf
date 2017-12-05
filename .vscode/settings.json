@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "stdarg.h": "c",
-        "libft.h": "c",
-        "ft_printf.h": "c"
-    },
-    "C_Cpp.intelliSenseEngineFallback": "Enabled",
-    "C_Cpp.errorSquiggles": "Enabled"
-}

@@ -25,6 +25,16 @@ typedef	struct			s_list
 	struct s_list		*next;
 }						t_list;
 
+typedef	struct			s_dict
+{
+	int					index;
+	char				*keyword;
+	unsigned long int	content;
+	struct s_dict		*next;
+}						t_dict;
+
+char					*ft_strndup(const char *src, size_t len);
+t_dict					*ft_dict_create(char *keyword, unsigned long int content);
 t_list					*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 char					**ft_strsplit(char const *s, char c);
 void					ft_strdel(char **as);
