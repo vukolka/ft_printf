@@ -1,15 +1,10 @@
 #include "libft.h"
 
-static int	str_len(int n, int base)
+static int	str_len(unsigned long int n, int base)
 {
 	int i;
 
 	i = 0;
-	if (n < 0)
-	{
-		i++;
-		n = -n;
-	}
 	while (n > 0)
 	{
 		n = n / base;
@@ -35,23 +30,16 @@ char	convert_letter(int a)
 	return (a + '0');
 }
 
-char*	ft_itoa_base(int n, int base)
+char*	ft_itoa_base(unsigned long int n, int base)
 {
 	char				*ret;
 	int					i;
 
-	if (n == -2147483648)
-		return (ft_strdup("-80000000"));
 	if (n == -0)
 		return (ft_strdup("0"));
 	if (!(ret = ft_strnew(str_len(n, base))))
 		return (NULL);
 	i = str_len(n, base);
-	if (n < 0)
-	{
-		n = -n;
-		ret[0] = '-';
-	}
 	ret[i--] = 0;
 	while (n > 0)
 	{

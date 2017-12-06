@@ -35,7 +35,7 @@ typedef	struct			s_dict
 }						t_dict;
 
 void					ft_strupper(char *a);
-char*					ft_itoa_base(int n, int base);
+char*					ft_itoa_base(unsigned long int n, int base);
 t_dict					*ft_dict_get(char *keyword, t_dict *dict);
 char					*ft_strndup(const char *src, size_t len);
 t_dict					*ft_dict_create(int i, char *keyword, char* (*func) (va_list));

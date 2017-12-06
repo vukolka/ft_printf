@@ -6,6 +6,8 @@
 char    *ft_format_X(va_list ap);
 char    *ft_format_s(va_list ap);
 char    *ft_format_c(va_list ap);
+char    *ft_format_p(va_list ap);
+char    *ft_format_u(va_list ap);
 char    *ft_format_x(va_list ap);
 char    *ft_format_o(va_list ap);
 void    get_func_dict(t_dict **mods);

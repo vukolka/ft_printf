@@ -3,7 +3,7 @@
 
 char    *ft_format_x(va_list ap)
 {
-    int a = va_arg(ap, int);
+    int a = va_arg(ap, unsigned int);
     return (ft_itoa_base(a, 16));
 }
 char    *ft_format_X(va_list ap)
