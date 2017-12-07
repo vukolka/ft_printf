@@ -9,6 +9,6 @@ void	modify_flags(char *res, char *flags)
 {
 	while (*flags)
 	{
-		apply_flag(*res, *flags);
+		apply_flag(res, *flags);
 	}
 }

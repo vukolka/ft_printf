@@ -3,30 +3,22 @@
 
 int     ft_printf(const char *format, ...)
 {
-    va_list ap;
-    size_t  i;
-    char    *res;
-    char    *mod;
-    char    *modstring;
-
+    va_list		ap;
+    char		*res;
+    int         i;
+    i = 0;
     res = NULL;
     va_start(ap, format);
-    i = 0;    
     while (format[i])
     {
-        if(format[i] == 37)
+        if(format[i] == MODCHAR)
         {
-            res = ft_conncat(res, format, i);            
-            i += get_modificator(format + i, &modstring);
-            mod = get_right_format(modstring, ap);
-            modify_flags(mod, modstring);
-            res = ft_conncat(res, mod, ft_strlen(mod));
-            format += i;
-            i = 0;
+            ft_conncat(res, format, i);
+            i += apply_format(format + i, &res, ap);
         }
-        i++;
+		i++;
     }
-    res = ft_conncat(res, format, ft_strlen(format));    
+    res = ft_conncat(res, format, ft_strlen(format));
     va_end(ap);
     ft_putstr(res);
     free(res);
@@ -34,13 +26,17 @@ int     ft_printf(const char *format, ...)
 }
 
 /*
+t_format current;
+int		 bytedred;
 
-    this is a %.2#s to be formated, %s
-
-    while (format[i])
-        if (%)
-            while (ismodificator())
-                save modificator into array
-            modify
+bytedred = 0;
+current = NULL;
+while (bytes_red = get_mod_object(format, &modstring))
+{
+	formated = apply_format(current, va_list ap);
+	result = conncat(result, format, i);
+	result = conncat(result, format, formated);
+	format += bytes_red;
+}
             
 */

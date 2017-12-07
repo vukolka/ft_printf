@@ -24,8 +24,7 @@ int			get_modificator(const char *format, char **modstring)
 		{
 			i++;
 			*modstring = ft_strndup(format, i);
-			printf("modstring: %s\n", *modstring);	
-			res = 1;			
+			res = 1;
 			break;
 		}
 		i++;
