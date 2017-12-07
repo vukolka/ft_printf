@@ -2,6 +2,7 @@
 # define FTPRINTF_H
 # include <stdarg.h>
 # include <stdio.h>
+# define MODSLIST "sSpdDioOuUxXcC"
 
 char    *ft_format_X(va_list ap);
 char    *ft_format_s(va_list ap);

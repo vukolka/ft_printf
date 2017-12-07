@@ -19,6 +19,7 @@ int     ft_printf(const char *format, ...)
             res = ft_conncat(res, format, i);            
             i += get_modificator(format + i, &modstring);
             mod = get_right_format(modstring, ap);
+            modify_flags(mod, modstring);
             res = ft_conncat(res, mod, ft_strlen(mod));
             format += i;
             i = 0;
