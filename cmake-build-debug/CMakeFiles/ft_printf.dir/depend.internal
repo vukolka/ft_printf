@@ -3,77 +3,77 @@
 
 CMakeFiles/ft_printf.dir/ft_printf/apply_flags.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/apply_flags.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/apply_flags.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/apply_format.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/apply_format.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_conncat.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_conncat.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_conncat.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_c.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_c.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_c.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_d.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_d.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_o.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_o.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_p.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_p.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_s.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_s.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_u.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_u.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_format_x.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_x.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_printf.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.c
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/get_func_dict.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/get_func_dict.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/get_func_dict.c
 CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/get_modificator.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/get_modificator.c
 CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/get_next_format.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/get_next_format.c
 CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/get_right_format.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/get_right_format.c
 CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/modify_flags.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/modify_flags.c
 CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/parce_modifiers.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/ft_printf.h
- /home/vukolov/Documents/unit/ft_printf/ft_printf/proccess_format.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+ /Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c
 CMakeFiles/ft_printf.dir/main.c.o
  ../ft_printf/ft_printf.h
  ../libftprintf/libft.h
- /home/vukolov/Documents/unit/ft_printf/main.c
+ /Users/mvukolov/Documents/ft_printf/main.c
