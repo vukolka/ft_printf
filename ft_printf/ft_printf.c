@@ -18,7 +18,10 @@ int     ft_printf(const char *format, ...)
         {
             res = ft_conncat(res, format, i);
             i += apply_format(format + i, &temp, ap);
-            res = ft_conncat(res, temp, i);
+            res = ft_conncat(res, temp, ft_strlen(temp));
+            free(temp);
+            format += i;
+            i = 0;
         }
 		i++;
     }

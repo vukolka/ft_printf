@@ -1,18 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/11/01 17:04:36 by mvukolov          #+#    #+#             */
-/*   Updated: 2017/11/01 17:04:45 by mvukolov         ###   ########.fr       */
+/*   Created: 2017/11/25 19:19:48 by mvukolov          #+#    #+#             */
+/*   Updated: 2017/11/27 18:45:31 by mvukolov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
+# include <sys/types.h>
+# include <sys/uio.h>
+# include <fcntl.h>
+# include <unistd.h>
+# include <stdlib.h>
+# include <string.h>
+# define BUFF_SIZE 1
 
-void		ft_putstr(char const *s)
+typedef struct		s_currfd
 {
-	write(1, s, ft_strlen(s));
-}
+	char			*content;
+	int				fd;
+	struct s_currfd	*next;
+}					t_currfd;
+
+int					get_next_line(const int fd, char **line);
+
+#endif

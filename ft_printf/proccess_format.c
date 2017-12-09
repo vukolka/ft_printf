@@ -7,6 +7,6 @@ char	*process_format(t_format *current, va_list ap)
 
     result = NULL;
     result = get_right_format(current->format, ap);
-    printf("process format: %s", result);
+    result = apply_flags(current, result);
     return (result);
 }

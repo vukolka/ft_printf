@@ -189,6 +189,12 @@
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/mvukolov/Documents/ft_printf/get_next_line.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/mvukolov/Documents/ft_printf/get_next_line.h">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/libftprintf/ft_atoi.c">
 			<Option target="libft"/>
 		</Unit>

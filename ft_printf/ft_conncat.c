@@ -3,7 +3,7 @@
 
 char    *ft_conncat(char *res, const char *src, size_t len)
 {
-    char *toret;
+    char    *toret;
     size_t  size;
 
     size = ft_strlen(src);
@@ -15,7 +15,7 @@ char    *ft_conncat(char *res, const char *src, size_t len)
     if (res)
     {
         ft_strcpy(toret, res);
-        free(res);        
+        free(res);
     }
     ft_strncat(toret, src, len);
     return (toret);

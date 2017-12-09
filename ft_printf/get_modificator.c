@@ -18,7 +18,7 @@ int			get_modificator(const char *format, char **modstring)
 	res = 0;
 	formatlist = ft_strdup(MODSLIST);
 	i = 0;
-	while (format[i] && !ft_isspace(format[i])) 
+	while (format[i])
 	{
 		if((res = ft_is_modifier(format[i], formatlist)))
 		{
@@ -29,6 +29,7 @@ int			get_modificator(const char *format, char **modstring)
 		}
 		i++;
 	}
+	free(formatlist);
 	if(res == 0)
 		return (res);
 	return (i);

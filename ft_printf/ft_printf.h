@@ -19,6 +19,7 @@ typedef struct	s_format
 
 char			*ft_format_X(va_list ap);
 char			*ft_format_s(va_list ap);
+char			*ft_format_S(va_list ap);
 char			*ft_format_c(va_list ap);
 char			*ft_format_p(va_list ap);
 char			*ft_format_u(va_list ap);
@@ -30,9 +31,10 @@ char			*get_right_format(char *modstring, va_list ap);
 char			*ft_format_d(va_list ap);
 char			*ft_conncat(char *res, const char *src, size_t len);
 int				ft_printf(const char *format, ...);
-t_format		*parce_modifiers(char *mods, t_format *current);
+t_format		*parse_modifiers(char *mods, t_format *current);
 int			    apply_format(const char *format, char **res, va_list ap);
 char			*process_format(t_format *current, va_list ap);
+char			*apply_flags(t_format *current, char *src);
 
 #endif 
 

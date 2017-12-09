@@ -30,7 +30,7 @@ static int	str_len(int n)
 	return (i);
 }
 
-char		*ft_itoa(int n)
+char		*ft_itoa(long long int n)
 {
 	char	*ret;
 	int		i;

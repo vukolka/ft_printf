@@ -73,7 +73,12 @@ CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../ft_printf/proccess_format.c
 
+CMakeFiles/ft_printf.dir/get_next_line.c.o: ../libftprintf/libft.h
+CMakeFiles/ft_printf.dir/get_next_line.c.o: ../get_next_line.c
+CMakeFiles/ft_printf.dir/get_next_line.c.o: ../get_next_line.h
+
 CMakeFiles/ft_printf.dir/main.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/main.c.o: ../libftprintf/libft.h
+CMakeFiles/ft_printf.dir/main.c.o: ../get_next_line.h
 CMakeFiles/ft_printf.dir/main.c.o: ../main.c
 

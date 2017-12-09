@@ -15,7 +15,7 @@ void static	fill_with_zeros(t_format *current)
 
 
 
-t_format	*parce_modifiers(char *mods, t_format *current)
+t_format	*parse_modifiers(char *mods, t_format *current)
 {
 	int i;
 
@@ -48,9 +48,9 @@ t_format	*parce_modifiers(char *mods, t_format *current)
 				mods++;
 			continue;
 		}
-		while (ft_strchr(MODSCHAR, *mods))
+		while (*mods && ft_strchr(MODSCHAR, *mods))
 		{
-			current->format[i++] = *mods;
+			(current->format)[i++] = *mods;
 			mods++;
 		}
 		mods++;
