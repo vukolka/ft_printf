@@ -3,5 +3,5 @@
 
 char	*process_format(t_format *current, va_list ap)
 {
-	
+
 }

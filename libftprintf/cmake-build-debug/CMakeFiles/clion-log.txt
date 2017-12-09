@@ -1,0 +1,4 @@
+/home/vukolov/Downloads/clion/clion-2017.2.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/vukolov/Documents/unit/ft_printf/libftprintf
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/vukolov/Documents/unit/ft_printf/libftprintf/cmake-build-debug
