@@ -28,8 +28,9 @@ int     ft_printf(const char *format, ...)
     res = ft_conncat(res, format, ft_strlen(format));
     va_end(ap);
     ft_putstr(res);
+    i = ft_strlen(res);
     free(res);
-    return (1);
+    return (i);
 }
 
 /*

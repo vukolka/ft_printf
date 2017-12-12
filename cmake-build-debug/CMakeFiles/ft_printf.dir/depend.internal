@@ -65,10 +65,10 @@ CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o
  ../libftprintf/libft.h
  /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
  /Users/mvukolov/Documents/ft_printf/ft_printf/modify_flags.c
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
  ../libftprintf/libft.h
  /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
- /Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c
+ /Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
  ../libftprintf/libft.h
  /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h

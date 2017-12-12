@@ -183,7 +183,7 @@
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/modify_flags.c">
 			<Option target="ft_printf"/>
 		</Unit>
-		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c">
+		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c">

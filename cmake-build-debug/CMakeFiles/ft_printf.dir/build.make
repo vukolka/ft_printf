@@ -417,28 +417,28 @@ CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o.provides: CMakeFiles/ft_prin
 CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o.provides.build: CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o
 
 
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o: CMakeFiles/ft_printf.dir/flags.make
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o: ../ft_printf/parce_modifiers.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o   -c /Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o: CMakeFiles/ft_printf.dir/flags.make
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o: ../ft_printf/parse_modifiers.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o   -c /Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c
 
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c > CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.i
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c > CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.i
 
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c -o CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.s
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c -o CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.s
 
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.requires:
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.requires:
 
-.PHONY : CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.requires
+.PHONY : CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.requires
 
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.provides: CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.requires
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.provides.build
-.PHONY : CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.provides
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.provides: CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.requires
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.provides.build
+.PHONY : CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.provides
 
-CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.provides.build: CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o
+CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.provides.build: CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
 
 
 CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o: CMakeFiles/ft_printf.dir/flags.make
@@ -554,7 +554,7 @@ ft_printf_OBJECTS = \
 "CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o" \
-"CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o" \
+"CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o" \
 "CMakeFiles/ft_printf.dir/main.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o" \
@@ -578,7 +578,7 @@ ft_printf: CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o
-ft_printf: CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o
+ft_printf: CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o
 ft_printf: CMakeFiles/ft_printf.dir/main.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
@@ -609,7 +609,7 @@ CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/get_modifi
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o.requires
-CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o.requires
+CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/main.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o.requires

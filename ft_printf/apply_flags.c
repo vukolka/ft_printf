@@ -43,7 +43,7 @@ char    *process_width(t_format *current, char *s1)
     char        c;
 
     c = ' ';
-    if (current->zero && current->format[0] == 's')
+    if (current->zero && ft_strchr("sxX", current->format[0]))
         c = '0';
     period = current->f_width;
     i = period - ft_strlen(s1);
@@ -86,7 +86,7 @@ char     *process_space(char *s1)
     res = s1;
     if(s1[0] != '-' && s1[0] != '+')
     {
-        res = ft_conncat(" ", s1, ft_strlen(s1));
+        res = ft_conncat(ft_strdup(" "), s1, ft_strlen(s1));
         free(s1);
     }
     return (res);

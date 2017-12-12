@@ -1,7 +1,7 @@
 #include "libft.h"
 #include "ft_printf.h"
 
-char	*get_right_format(char *modstring, va_list ap)
+char	*get_right_format(t_format *current, va_list ap)
 {
 	static t_dict	*mods = NULL;
 	t_dict 			*curr;
@@ -10,11 +10,7 @@ char	*get_right_format(char *modstring, va_list ap)
 	i = 0;
 	if (!mods)
 		get_func_dict(&mods);
-	while (modstring[i])
-	{
-		if((curr = ft_dict_get(modstring + i, mods)))
-			return (curr->func(ap));
-		i++;
-	}
-	return (" ");
+    if((curr = ft_dict_get(current->format, mods)))
+        return (curr->func(ap, current->format_mod));
+	return (NULL); // should place exit function instead of null return
 }

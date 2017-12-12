@@ -30,17 +30,17 @@ typedef	struct			s_dict
 {
 	int					index;
 	char				*keyword;
-	char* 				(*func) (va_list);
+	char* 				(*func) (va_list, char*);
 	struct s_dict		*next;
 }						t_dict;
 
 int						ft_isspace(char c);
 void					ft_strupper(char *a);
-char*					ft_itoa_base(unsigned long int n, int base);
+char*					ft_itoa_base(unsigned long long int n, int base);
 t_dict					*ft_dict_get(char *keyword, t_dict *dict);
 char					*ft_strndup(const char *src, size_t len);
-t_dict					*ft_dict_create(int i, char *keyword, char* (*func) (va_list));
-void					ft_dict_add(t_dict **dict,char *keyword, char* (*func)(va_list));
+t_dict					*ft_dict_create(int i, char *keyword, char* (*func) (va_list, char*));
+void					ft_dict_add(t_dict **dict,char *keyword, char* (*func)(va_list, char*));
 t_list					*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 char					**ft_strsplit(char const *s, char c);
 void					ft_strdel(char **as);

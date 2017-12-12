@@ -1,10 +1,11 @@
 #include "libft.h"
 #include "ft_printf.h"
 
-char    *ft_format_c(va_list ap)
+char    *ft_format_c(va_list ap, char *mod)
 {
 	int		a;
 	char	*ret;
+	*mod = *mod;
 
 	ret = ft_strnew(2);
 	if (!ret)

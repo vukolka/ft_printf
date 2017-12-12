@@ -10,7 +10,8 @@ void static	fill_with_zeros(t_format *current)
 	current->minus = 0;
 	current->plus = 0;
 	current->period = 0;
-	current->format = ft_strnew(3);
+	current->format = ft_strnew(1);
+	current->format_mod = ft_strnew(3);
 }
 
 
@@ -50,10 +51,16 @@ t_format	*parse_modifiers(char *mods, t_format *current)
 		}
 		while (*mods && ft_strchr(MODSCHAR, *mods))
 		{
-			(current->format)[i++] = *mods;
+			(current->format_mod)[i++] = *mods;
 			mods++;
+		}
+		i = 0;
+		if(ft_strchr(MODSLIST, *mods))
+		{
+			(current->format)[i++] = *mods;
+			return current;
 		}
 		mods++;
 	}	
-	return (current);
+	return (NULL);
 }

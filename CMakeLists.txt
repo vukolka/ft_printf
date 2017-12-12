@@ -20,7 +20,7 @@ set(SOURCE_FILES
         ft_printf/get_next_format.c
         ft_printf/get_right_format.c
         ft_printf/modify_flags.c
-        ft_printf/parce_modifiers.c
+        ft_printf/parse_modifiers.c
         ft_printf/apply_format.c
         main.c ft_printf/proccess_format.c
         get_next_line.c)

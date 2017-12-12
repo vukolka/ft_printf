@@ -57,6 +57,8 @@ libft.h
 /Users/mvukolov/Documents/ft_printf/libftprintf/ft_itoa_base.c
 libft.h
 /Users/mvukolov/Documents/ft_printf/libftprintf/libft.h
+stdio.h
+-
 
 /Users/mvukolov/Documents/ft_printf/libftprintf/ft_lstadd.c
 libft.h

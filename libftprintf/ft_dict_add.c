@@ -1,6 +1,6 @@
 #include "libft.h"
 
-void    ft_dict_add(t_dict **dict,char *keyword, char* (*func)(va_list))
+void    ft_dict_add(t_dict **dict,char *keyword, char* (*func)(va_list, char*))
 {
 	t_dict *new;
 	new = *dict;

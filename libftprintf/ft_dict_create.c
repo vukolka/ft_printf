@@ -1,6 +1,6 @@
 #include "libft.h"
 
-t_dict  *ft_dict_create(int i, char *keyword, char* (*func) (va_list))
+t_dict  *ft_dict_create(int i, char *keyword, char* (*func) (va_list, char*))
 {
     t_dict *newdict;
 

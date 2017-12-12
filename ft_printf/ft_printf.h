@@ -4,7 +4,7 @@
 # include <stdio.h>
 # define MODSLIST "sSpdDioOuUxXcC"
 # define MODCHAR '%'
-# define MODSCHAR "lhjzsSpdDioOuUxXcC"
+# define MODSCHAR "lhjz"
 typedef struct	s_format
 {
 	int			sharp;
@@ -15,20 +15,21 @@ typedef struct	s_format
 	int			plus;
 	int			period;
 	char		*format;
+	char		*format_mod;
 }				t_format;
 
-char			*ft_format_X(va_list ap);
-char			*ft_format_s(va_list ap);
-char			*ft_format_S(va_list ap);
-char			*ft_format_c(va_list ap);
-char			*ft_format_p(va_list ap);
-char			*ft_format_u(va_list ap);
-char			*ft_format_x(va_list ap);
-char			*ft_format_o(va_list ap);
+char			*ft_format_X(va_list ap, char *mod);
+char			*ft_format_x(va_list ap, char *mod);
+char			*ft_format_s(va_list ap, char *mod);
+char			*ft_format_S(va_list ap, char *mod);
+char			*ft_format_c(va_list ap, char *mod);
+char			*ft_format_p(va_list ap, char *mod);
+char			*ft_format_u(va_list ap, char *mod);
+char			*ft_format_o(va_list ap, char *mod);
+char			*ft_format_d(va_list ap, char *mod);
 void			get_func_dict(t_dict **mods);
 int				get_modificator(const char *format, char **modstring);
-char			*get_right_format(char *modstring, va_list ap);
-char			*ft_format_d(va_list ap);
+char			*get_right_format(t_format *current, va_list ap);
 char			*ft_conncat(char *res, const char *src, size_t len);
 int				ft_printf(const char *format, ...);
 t_format		*parse_modifiers(char *mods, t_format *current);

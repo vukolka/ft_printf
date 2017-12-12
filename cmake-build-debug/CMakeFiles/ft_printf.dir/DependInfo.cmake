@@ -20,7 +20,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mvukolov/Documents/ft_printf/ft_printf/get_next_format.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/get_right_format.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/modify_flags.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o"
-  "/Users/mvukolov/Documents/ft_printf/ft_printf/parce_modifiers.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o"
+  "/Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o"
   "/Users/mvukolov/Documents/ft_printf/get_next_line.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/get_next_line.c.o"
   "/Users/mvukolov/Documents/ft_printf/main.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/main.c.o"

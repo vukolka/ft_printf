@@ -568,32 +568,32 @@ ft_printf/modify_flags.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.s
 .PHONY : ft_printf/modify_flags.c.s
 
-ft_printf/parce_modifiers.o: ft_printf/parce_modifiers.c.o
+ft_printf/parse_modifiers.o: ft_printf/parse_modifiers.c.o
 
-.PHONY : ft_printf/parce_modifiers.o
+.PHONY : ft_printf/parse_modifiers.o
 
 # target to build an object file
-ft_printf/parce_modifiers.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o
-.PHONY : ft_printf/parce_modifiers.c.o
+ft_printf/parse_modifiers.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
+.PHONY : ft_printf/parse_modifiers.c.o
 
-ft_printf/parce_modifiers.i: ft_printf/parce_modifiers.c.i
+ft_printf/parse_modifiers.i: ft_printf/parse_modifiers.c.i
 
-.PHONY : ft_printf/parce_modifiers.i
+.PHONY : ft_printf/parse_modifiers.i
 
 # target to preprocess a source file
-ft_printf/parce_modifiers.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.i
-.PHONY : ft_printf/parce_modifiers.c.i
+ft_printf/parse_modifiers.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.i
+.PHONY : ft_printf/parse_modifiers.c.i
 
-ft_printf/parce_modifiers.s: ft_printf/parce_modifiers.c.s
+ft_printf/parse_modifiers.s: ft_printf/parse_modifiers.c.s
 
-.PHONY : ft_printf/parce_modifiers.s
+.PHONY : ft_printf/parse_modifiers.s
 
 # target to generate assembly for a file
-ft_printf/parce_modifiers.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.s
-.PHONY : ft_printf/parce_modifiers.c.s
+ft_printf/parse_modifiers.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.s
+.PHONY : ft_printf/parse_modifiers.c.s
 
 ft_printf/proccess_format.o: ft_printf/proccess_format.c.o
 
@@ -734,9 +734,9 @@ help:
 	@echo "... ft_printf/modify_flags.o"
 	@echo "... ft_printf/modify_flags.i"
 	@echo "... ft_printf/modify_flags.s"
-	@echo "... ft_printf/parce_modifiers.o"
-	@echo "... ft_printf/parce_modifiers.i"
-	@echo "... ft_printf/parce_modifiers.s"
+	@echo "... ft_printf/parse_modifiers.o"
+	@echo "... ft_printf/parse_modifiers.i"
+	@echo "... ft_printf/parse_modifiers.s"
 	@echo "... ft_printf/proccess_format.o"
 	@echo "... ft_printf/proccess_format.i"
 	@echo "... ft_printf/proccess_format.s"

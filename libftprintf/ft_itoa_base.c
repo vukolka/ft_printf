@@ -1,6 +1,7 @@
 #include "libft.h"
+#include <stdio.h>
 
-static int	str_len(unsigned long int n, int base)
+static int	str_len(unsigned long long int n, int base)
 {
 	int i;
 
@@ -30,7 +31,7 @@ char	convert_letter(int a)
 	return (a + '0');
 }
 
-char*	ft_itoa_base(unsigned long int n, int base)
+char*	ft_itoa_base(unsigned long long int n, int base)
 {
 	char				*ret;
 	int					i;

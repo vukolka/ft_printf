@@ -14,7 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o"
   "CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o"
   "CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o"
-  "CMakeFiles/ft_printf.dir/ft_printf/parce_modifiers.c.o"
+  "CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o"
   "CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o"
   "CMakeFiles/ft_printf.dir/main.c.o"
   "CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o"
