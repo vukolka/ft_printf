@@ -14,7 +14,6 @@ $(OBJECTS) : %.o: %.c
 
 $(NAME): $(OBJECTS)
 	$(MAKE) -C libftprintf/
-	#gcc $(OBJECTS) -o $(NAME) $(FLAGS) libftprintf/libft.a
 	ar rc libftprintf.a $(OBJECTS) libftprintf/*.o
 
 clean :
