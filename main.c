@@ -6,6 +6,7 @@
 
 int     main()
 {
-    int a = ft_printf("%010x", 542);
+    ft_printf("%#0.20 20lld, %d\n", 3000000000, 666);
+    printf("%#0.20 20lld, %d", 3000000000, 666);
     return (1);
 }

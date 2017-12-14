@@ -32,19 +32,3 @@ int     ft_printf(const char *format, ...)
     free(res);
     return (i);
 }
-
-/*
-t_format current;
-int		 bytedred;
-
-bytedred = 0;
-current = NULL;
-while (bytes_red = get_mod_object(format, &modstring))
-{
-	formated = apply_format(current, va_list ap);
-	result = conncat(result, format, i);
-	result = conncat(result, format, formated);
-	format += bytes_red;
-}
-            
-*/
