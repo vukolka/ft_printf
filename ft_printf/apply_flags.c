@@ -58,7 +58,7 @@ char    *process_width(t_format *current, char *s1)
     char        c;
 
     c = ' ';
-    if (current->zero && ft_strchr("sxXou", current->format[0]))
+    if (current->zero && ft_strchr("sxXoudDi", current->format[0]))
         c = '0';
     period = current->f_width;
     i = period - ft_strlen(s1);
