@@ -31,6 +31,7 @@ char			*ft_format_p(va_list ap, char *mod);
 char			*ft_format_u(va_list ap, char *mod);
 char			*ft_format_o(va_list ap, char *mod);
 char			*ft_format_d(va_list ap, char *mod);
+char			*ft_format_D(va_list ap, char *mod);
 void			get_func_dict(t_dict **mods);
 int				get_modificator(const char *format, char **modstring);
 char			*get_right_format(t_format *current, va_list ap);

@@ -22,3 +22,12 @@ char    *ft_format_d(va_list ap, char *mod)
         a = va_arg(ap, int);
     return (ft_itoa(a));
 }
+
+char    *ft_format_D(va_list ap, char *mod)
+{
+	long a;
+
+	a = va_arg(ap, long);
+	mod++;
+	return (ft_itoa(a));
+}

@@ -3,7 +3,8 @@
 
 void  get_func_dict(t_dict **mods)
 {
-    ft_dict_add(mods, "d", &ft_format_d);
+	ft_dict_add(mods, "d", &ft_format_d);
+	ft_dict_add(mods, "D", &ft_format_D);
     ft_dict_add(mods, "i", &ft_format_d);
     ft_dict_add(mods, "x", &ft_format_x);
     ft_dict_add(mods, "X", &ft_format_X);
