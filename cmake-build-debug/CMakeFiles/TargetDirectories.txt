@@ -1,6 +1,0 @@
-/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir
-/Users/mvukolov/Documents/ft_printf/cmake-build-debug/libftprintf/CMakeFiles/rebuild_cache.dir
-/Users/mvukolov/Documents/ft_printf/cmake-build-debug/libftprintf/CMakeFiles/edit_cache.dir
-/Users/mvukolov/Documents/ft_printf/cmake-build-debug/libftprintf/CMakeFiles/libft.dir
