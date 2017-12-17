@@ -35,8 +35,8 @@ char		*ft_itoa(long long int n)
 	char	*ret;
 	int		i;
 
-	if (n == -9223372036854775807)
-		return (ft_strdup("-9223372036854775807"));
+	if ((unsigned long long)n == 9223372036854775808U)
+		return (ft_strdup("-9223372036854775808"));
 	if (n == -0)
 		return (ft_strdup("0"));
 	if (!(ret = ft_strnew(str_len(n))))

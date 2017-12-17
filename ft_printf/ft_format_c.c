@@ -3,7 +3,7 @@
 
 char    *ft_format_c(va_list ap, char *mod)
 {
-	int		a;
+    unsigned char a;
 	char	*ret;
 	*mod = *mod;
 
@@ -11,6 +11,6 @@ char    *ft_format_c(va_list ap, char *mod)
 	if (!ret)
 		return (NULL);
 	a = va_arg(ap, int);
-	ret[0] = a;
+    ret[0] = a;
 	return (ret);
 }

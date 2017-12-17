@@ -29,6 +29,10 @@ CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o: ../ft_printf/ft_format_p.c
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o: ../ft_printf/ft_printf.h
 
+CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o: ../libftprintf/libft.h
+CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o: ../ft_printf/ft_format_percent.c
+CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o: ../ft_printf/ft_printf.h
+
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o: ../ft_printf/ft_format_s.c
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o: ../ft_printf/ft_printf.h
@@ -72,6 +76,10 @@ CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o: ../ft_printf/parse_modif
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../ft_printf/proccess_format.c
+
+CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../libftprintf/libft.h
+CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../ft_printf/ft_printf.h
+CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../ft_printf/validate_input.c
 
 CMakeFiles/ft_printf.dir/get_next_line.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/get_next_line.c.o: ../get_next_line.c

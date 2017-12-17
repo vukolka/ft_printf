@@ -31,6 +31,9 @@ int			get_modificator(const char *format, char **modstring)
 	}
 	free(formatlist);
 	if(res == 0)
+	{
+		*modstring = ft_strdup("0");
 		return (res);
+	}
 	return (i);
 }

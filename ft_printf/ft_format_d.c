@@ -11,9 +11,9 @@ char    *ft_format_d(va_list ap, char *mod)
     else if (ft_strequ(mod, "ll"))
         a = va_arg(ap, long long);
     else if (ft_strequ(mod, "h"))
-        a = va_arg(ap, int) & 0xFFFF;
+        a = (short int)va_arg(ap, int);
     else if (ft_strequ(mod, "hh"))
-        a = va_arg(ap, int) & 0xFF;
+        a = (char)va_arg(ap, int);
     else if (ft_strequ(mod, "j"))
         a = va_arg(ap, intmax_t);
     else if (ft_strequ(mod, "z"))

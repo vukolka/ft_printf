@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.dir/main.c.o"
   "CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o"
   "CMakeFiles/ft_printf.dir/get_next_line.c.o"
+  "CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o"
+  "CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o"
   "ft_printf.pdb"
   "ft_printf"
 )

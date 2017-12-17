@@ -12,5 +12,7 @@ void  get_func_dict(t_dict **mods)
     ft_dict_add(mods, "s", &ft_format_s);
     ft_dict_add(mods, "c", &ft_format_c);
     ft_dict_add(mods, "p", &ft_format_p);
+    ft_dict_add(mods, "%", &ft_format_percent);
     ft_dict_add(mods, "u", &ft_format_u);
+    ft_dict_add(mods, "U", &ft_format_U);
 }

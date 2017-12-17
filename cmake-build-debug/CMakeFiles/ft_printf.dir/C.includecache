@@ -11,6 +11,8 @@ stdarg.h
 -
 stdio.h
 -
+libft.h
+../ft_printf/libft.h
 
 ../libftprintf/libft.h
 string.h
@@ -64,6 +66,12 @@ libft.h
 ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 
+/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_percent.c
+libft.h
+/Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
+ft_printf.h
+/Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+
 /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_s.c
 libft.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
@@ -93,6 +101,8 @@ stdarg.h
 -
 stdio.h
 -
+libft.h
+/Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
 
 /Users/mvukolov/Documents/ft_printf/ft_printf/get_func_dict.c
 libft.h
@@ -133,6 +143,10 @@ ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c
 libft.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
+ft_printf.h
+/Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
+
+/Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c
 ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 

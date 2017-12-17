@@ -5,8 +5,8 @@ int     ft_printf(const char *format, ...)
 {
     va_list		ap;
     char		*res;
-    int         i;
-    char        *temp;
+    int			i;
+    char		*temp;
 
     temp = NULL;
     i = 0;
@@ -14,16 +14,18 @@ int     ft_printf(const char *format, ...)
     va_start(ap, format);
     while (format[i])
     {
-        if(format[i] == MODCHAR)
-        {
+		if(format[i] == MODCHAR)
+		{
             res = ft_conncat(res, format, i);
+            i++;
             i += apply_format(format + i, &temp, ap);
             res = ft_conncat(res, temp, ft_strlen(temp));
             free(temp);
             format += i;
             i = 0;
         }
-		i++;
+		else
+		    i++;
     }
     res = ft_conncat(res, format, ft_strlen(format));
     va_end(ap);
@@ -32,3 +34,15 @@ int     ft_printf(const char *format, ...)
     free(res);
     return (i);
 }
+
+
+/*
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */

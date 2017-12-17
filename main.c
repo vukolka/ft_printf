@@ -6,7 +6,8 @@
 
 int     main()
 {
-    ft_printf("%#0.20 20lld, %d\n", 3000000000, 666);
-    printf("%#0.20 20lld, %d", 3000000000, 666);
+    unsigned long long int a = -9223372036854775808;
+    ft_printf("%lld\n", -9223372036854775808);
+    printf("%llu", a);
     return (1);
 }

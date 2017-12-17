@@ -2,7 +2,8 @@
 # define FTPRINTF_H
 # include <stdarg.h>
 # include <stdio.h>
-# define MODSLIST "sSpdDioOuUxXcC"
+# include "libft.h"
+# define MODSLIST "sSpd%DioOuUxXcC"
 # define MODCHAR '%'
 # define MODSCHAR "lhjz"
 typedef struct	s_format
@@ -18,6 +19,9 @@ typedef struct	s_format
 	char		*format_mod;
 }				t_format;
 
+char		    *ft_format_U(va_list ap, char *mod);
+int 		    validate_flags(t_format *current);
+char            *ft_format_percent(va_list ap, char *mod);
 char			*ft_format_X(va_list ap, char *mod);
 char			*ft_format_x(va_list ap, char *mod);
 char			*ft_format_s(va_list ap, char *mod);

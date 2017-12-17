@@ -153,6 +153,9 @@
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_p.c">
 			<Option target="ft_printf"/>
 		</Unit>
+		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_percent.c">
+			<Option target="ft_printf"/>
+		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_s.c">
 			<Option target="ft_printf"/>
 		</Unit>
@@ -187,6 +190,9 @@
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c">
+			<Option target="ft_printf"/>
+		</Unit>
+		<Unit filename="/Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c">
 			<Option target="ft_printf"/>
 		</Unit>
 		<Unit filename="/Users/mvukolov/Documents/ft_printf/get_next_line.c">

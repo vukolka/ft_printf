@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_d.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_d.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_o.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_o.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_p.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.o"
+  "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_percent.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_s.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_s.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_u.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_u.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_x.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/ft_format_x.c.o"
@@ -22,6 +23,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mvukolov/Documents/ft_printf/ft_printf/modify_flags.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o"
+  "/Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o"
   "/Users/mvukolov/Documents/ft_printf/get_next_line.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/get_next_line.c.o"
   "/Users/mvukolov/Documents/ft_printf/main.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/main.c.o"
   )

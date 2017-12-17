@@ -325,6 +325,33 @@ ft_printf/ft_format_p.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/ft_format_p.c.s
 .PHONY : ft_printf/ft_format_p.c.s
 
+ft_printf/ft_format_percent.o: ft_printf/ft_format_percent.c.o
+
+.PHONY : ft_printf/ft_format_percent.o
+
+# target to build an object file
+ft_printf/ft_format_percent.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o
+.PHONY : ft_printf/ft_format_percent.c.o
+
+ft_printf/ft_format_percent.i: ft_printf/ft_format_percent.c.i
+
+.PHONY : ft_printf/ft_format_percent.i
+
+# target to preprocess a source file
+ft_printf/ft_format_percent.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.i
+.PHONY : ft_printf/ft_format_percent.c.i
+
+ft_printf/ft_format_percent.s: ft_printf/ft_format_percent.c.s
+
+.PHONY : ft_printf/ft_format_percent.s
+
+# target to generate assembly for a file
+ft_printf/ft_format_percent.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.s
+.PHONY : ft_printf/ft_format_percent.c.s
+
 ft_printf/ft_format_s.o: ft_printf/ft_format_s.c.o
 
 .PHONY : ft_printf/ft_format_s.o
@@ -622,6 +649,33 @@ ft_printf/proccess_format.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.s
 .PHONY : ft_printf/proccess_format.c.s
 
+ft_printf/validate_input.o: ft_printf/validate_input.c.o
+
+.PHONY : ft_printf/validate_input.o
+
+# target to build an object file
+ft_printf/validate_input.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o
+.PHONY : ft_printf/validate_input.c.o
+
+ft_printf/validate_input.i: ft_printf/validate_input.c.i
+
+.PHONY : ft_printf/validate_input.i
+
+# target to preprocess a source file
+ft_printf/validate_input.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.i
+.PHONY : ft_printf/validate_input.c.i
+
+ft_printf/validate_input.s: ft_printf/validate_input.c.s
+
+.PHONY : ft_printf/validate_input.s
+
+# target to generate assembly for a file
+ft_printf/validate_input.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.s
+.PHONY : ft_printf/validate_input.c.s
+
 get_next_line.o: get_next_line.c.o
 
 .PHONY : get_next_line.o
@@ -707,6 +761,9 @@ help:
 	@echo "... ft_printf/ft_format_p.o"
 	@echo "... ft_printf/ft_format_p.i"
 	@echo "... ft_printf/ft_format_p.s"
+	@echo "... ft_printf/ft_format_percent.o"
+	@echo "... ft_printf/ft_format_percent.i"
+	@echo "... ft_printf/ft_format_percent.s"
 	@echo "... ft_printf/ft_format_s.o"
 	@echo "... ft_printf/ft_format_s.i"
 	@echo "... ft_printf/ft_format_s.s"
@@ -740,6 +797,9 @@ help:
 	@echo "... ft_printf/proccess_format.o"
 	@echo "... ft_printf/proccess_format.i"
 	@echo "... ft_printf/proccess_format.s"
+	@echo "... ft_printf/validate_input.o"
+	@echo "... ft_printf/validate_input.i"
+	@echo "... ft_printf/validate_input.s"
 	@echo "... get_next_line.o"
 	@echo "... get_next_line.i"
 	@echo "... get_next_line.s"

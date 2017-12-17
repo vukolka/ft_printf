@@ -22,3 +22,12 @@ char    *ft_format_u(va_list ap, char *mod)
         a = va_arg(ap, unsigned int);
     return (ft_itoa_base(a, 10));
 }
+
+char    *ft_format_U(va_list ap, char *mod)
+{
+    unsigned long int a;
+
+    mod++;
+    a = (unsigned long) va_arg(ap, long int);
+    return (ft_itoa_base(a, 10));
+}
