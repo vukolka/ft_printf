@@ -6,7 +6,7 @@
 
 int     main()
 {
-    ft_printf("%D\n", 2222222222221);
-    printf("%D\n", 2222222222221);
+	ft_printf("%-05o\n", 2500);
+	printf("%-05o", 2500);
     return (1);
 }

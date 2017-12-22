@@ -36,6 +36,8 @@ t_format	*parse_modifiers(char *mods, t_format *current)
 		{
 			mods++;
 			current->period = ft_atoi(mods);
+			if (current->period == 0)
+				current->period = -1;
 			while (ft_isdigit(*mods))
 				mods++;
 			continue;
@@ -57,6 +59,8 @@ t_format	*parse_modifiers(char *mods, t_format *current)
 		i = 0;
 		if(ft_strchr(MODSLIST, *mods))
 		{
+			if (*mods == 'i')
+				*mods = 'd';
 			(current->format)[i++] = *mods;
 			return current;
 		}

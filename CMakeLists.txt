@@ -25,8 +25,6 @@ set(SOURCE_FILES
         main.c ft_printf/proccess_format.c
         get_next_line.c ft_printf/validate_input.c ft_printf/ft_format_percent.c)
 
-include_directories(libftprintf)
-
 add_subdirectory(libftprintf)
 
 include_directories(libftprintf)

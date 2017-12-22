@@ -3,12 +3,12 @@
 
 char    *process_sharp(t_format *format, char *s1)
 {
-    char *res;
-    char form;
+    char    *res;
+    char    form;
     int     kostil;
 
     kostil = 1;
-    if (*s1 == '0' || s1[1] == 0)
+    if ((*s1 == '0' && s1[1] == 0) || !*s1)
         kostil = 0;
     form = format->format[0];
     res = NULL;
@@ -32,18 +32,34 @@ char    *process_precision(t_format *format, char *s1)
     long int    i;
     int period;
 
+	if (*(format->format) == 's' && !*s1)
+		return (s1);
     period = format->period;
     if (period == 0)
         return (s1);
-        i = period - ft_strlen(s1);
+	if (period == -1 && ft_strchr("xXuodi", *(format->format)) && !ft_atoi(s1))
+	{
+		*s1 = 0;
+		return (s1);
+	}
+	i = period - ft_strlen(s1);
     if (i < 0 && format->format[0] != 's')
         return (s1);
     a = ft_strnew(period);
     if (i > 0)
     {
-        ft_memset(a, '0', i);
-        ft_strcat(a, s1);
-    }
+		if (*s1 == '-')
+		{
+			*a = '-';
+			ft_memset(a + 1, '0', i + 1);
+			ft_strcat(a, s1 + 1);
+		}
+		else
+		{
+			ft_memset(a, '0', i);
+			ft_strcat(a, s1);
+		}
+	}
     else
         ft_strncat(a, s1, period);
     free(s1);
@@ -58,8 +74,6 @@ char    *process_width(t_format *current, char *s1)
     char        c;
 
     c = ' ';
-    if (current->zero && ft_strchr("sxXoudDi", current->format[0]))
-        c = '0';
     period = current->f_width;
     i = period - ft_strlen(s1);
     if (i < 0)
@@ -67,7 +81,6 @@ char    *process_width(t_format *current, char *s1)
     a = ft_strnew(period);
     if (current->minus)
     {
-        c = ' ';
         ft_strcpy(a, s1);
         ft_memset(a + ft_strlen(s1), c, i);
     }
@@ -78,6 +91,45 @@ char    *process_width(t_format *current, char *s1)
     }
     free(s1);
     return (a);
+}
+
+char	*process_zero_width(t_format *fomat, char *s1)
+{
+	char        *a;
+	long int    i;
+	int         period;
+	char        c;
+
+	if (!fomat->zero)
+		return (s1);
+	c = '0';
+	period = fomat->f_width;
+	i = period - ft_strlen(s1);
+	if (i < 0)
+		return (s1);
+	a = ft_strnew(period);
+	if (fomat->minus)
+	{
+		c = ' ';
+		ft_strcpy(a, s1);
+		ft_memset(a + ft_strlen(s1), c, i);
+	}
+	else
+	{
+		if (*s1 == '-')
+		{
+			*a = '-';
+			ft_memset(a+1, c, i);
+			ft_strcat(a, s1 + 1);
+		}
+		else
+		{
+			ft_memset(a, c, i);
+			ft_strcat(a, s1);
+		}
+	}
+	free(s1);
+	return (a);
 }
 
 char    *process_plus(int plus, char *s1)
@@ -111,15 +163,22 @@ char     *process_space(char *s1)
 
 char    *apply_flags(t_format *current, char *src)
 {
-    if (current->format[0] != 'c')
-        src = process_precision(current, src);
-    if(current->sharp)
-        src = process_sharp(current, src);
+	if (src == NULL)
+		return (NULL);
+	if (current->format[0] != 'c')
+		src = process_precision(current, src);
+	if (current->sharp
+		&& current->zero)
+		current->f_width -= 2;
+	src = process_zero_width(current, src);
+	if (current -> sharp)
+		src = process_sharp(current, src);
     if (current->format[0] != 'u')
         src = process_plus(current->plus, src);
     if (current->space && current->format[0] != 'u')
         if(src[0] != '-')
             src = process_space(src);
-    src = process_width(current, src);
+	if (!current -> zero)
+		src = process_width(current,src);
     return (src);
 }

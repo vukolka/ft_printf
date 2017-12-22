@@ -6,8 +6,10 @@ int     ft_printf(const char *format, ...)
     va_list		ap;
     char		*res;
     int			i;
+    int         total_len;
     char		*temp;
 
+    total_len = 0;
     temp = NULL;
     i = 0;
     res = NULL;
@@ -16,6 +18,7 @@ int     ft_printf(const char *format, ...)
     {
 		if(format[i] == MODCHAR)
 		{
+			total_len += i;
             res = ft_conncat(res, format, i);
             i++;
             i += apply_format(format + i, &temp, ap);
@@ -37,12 +40,16 @@ int     ft_printf(const char *format, ...)
 
 
 /*
+ * res += until_format;
+ * total_len += until_format;
+ * total_len += format;
+ * res += format;
  *
- *
- *
- *
- *
- *
- *
+ *  write(1, res, total_len);
+ */
+
+
+/*
+ * if (current->format == 'x')
  *
  */
