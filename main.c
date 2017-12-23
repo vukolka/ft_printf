@@ -6,6 +6,6 @@
 int     main()
 {
 	char *a = "àaaaa";
-	ft_printf("pouet camembert !!");
+	ft_printf("%spouet camembert !!", a);
     return (1);
 }
