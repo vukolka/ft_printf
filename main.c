@@ -5,6 +5,7 @@
 
 int     main()
 {
-	ft_printf("%%%s pouet camembert !!", "étaitunsoirde");
+	char *a = "àaaaa";
+	ft_printf("pouet camembert !!");
     return (1);
 }
