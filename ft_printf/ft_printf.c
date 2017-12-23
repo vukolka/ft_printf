@@ -41,6 +41,8 @@ int     ft_printf(const char *format, ...)
 	size = process_result(format, ap, &res);
     free(res);
 	write (1, res, size);
+	while (*res)
+		printf("%d ", *res++);
 	va_end(ap);
     return ((int)size);
 }

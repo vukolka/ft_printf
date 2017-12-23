@@ -5,7 +5,7 @@
 
 int     main()
 {
-	char *a = "àhisàtoiàres à raconterIlà";
+	char *a = "unsigned";
 	ft_printf("%s    pouet camembert !!", a);
     return (1);
 }
