@@ -13,11 +13,11 @@ char    *process_sharp(t_format *format, char *s1)
     form = format->format[0];
     res = NULL;
     if (form == 'o' && kostil)
-        res = ft_conncat(ft_strdup("0"), s1, ft_strlen(s1));
+        res = ft_conncat(ft_strdup("0"), s1, 1, ft_strlen(s1));
     if (form == 'x' && kostil)
-        res = ft_conncat(ft_strdup("0x"), s1, ft_strlen(s1));
+        res = ft_conncat(ft_strdup("0x"), s1, 2, ft_strlen(s1));
     if (form == 'X' && kostil)
-        res = ft_conncat(ft_strdup("0X"), s1, ft_strlen(s1));
+        res = ft_conncat(ft_strdup("0X"), s1, 2, ft_strlen(s1));
     if (res)
     {
         free(s1);
@@ -141,7 +141,7 @@ char    *process_plus(int plus, char *s1)
     res = s1;
     if(s1[0] != '-')
     {
-        res = ft_conncat(ft_strdup("+"), s1, ft_strlen(s1));
+        res = ft_conncat(ft_strdup("+"), s1, 1, ft_strlen(s1));
         free(s1);
     }
     return (res);
@@ -155,7 +155,7 @@ char     *process_space(char *s1)
     if(s1[0] != '-' && s1[0] != '+'
        && s1[0] != MODCHAR)
     {
-        res = ft_conncat(ft_strdup(" "), s1, ft_strlen(s1));
+        res = ft_conncat(ft_strdup(" "), s1, 1, ft_strlen(s1));
         free(s1);
     }
     return (res);
@@ -175,7 +175,8 @@ char    *apply_flags(t_format *current, char *src)
 		src = process_sharp(current, src);
     if (current->format[0] != 'u')
         src = process_plus(current->plus, src);
-    if (current->space && current->format[0] != 'u')
+    if (current->space && current->format[0] != 'u'
+		&& current->format[0] != 'c')
         if(src[0] != '-')
             src = process_space(src);
 	if (!current -> zero)

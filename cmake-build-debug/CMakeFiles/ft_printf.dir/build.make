@@ -513,33 +513,9 @@ CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o.provides: CMakeFiles/ft_p
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o.provides.build: CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
 
 
-CMakeFiles/ft_printf.dir/get_next_line.c.o: CMakeFiles/ft_printf.dir/flags.make
-CMakeFiles/ft_printf.dir/get_next_line.c.o: ../get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ft_printf.dir/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/get_next_line.c.o   -c /Users/mvukolov/Documents/ft_printf/get_next_line.c
-
-CMakeFiles/ft_printf.dir/get_next_line.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.dir/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mvukolov/Documents/ft_printf/get_next_line.c > CMakeFiles/ft_printf.dir/get_next_line.c.i
-
-CMakeFiles/ft_printf.dir/get_next_line.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.dir/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mvukolov/Documents/ft_printf/get_next_line.c -o CMakeFiles/ft_printf.dir/get_next_line.c.s
-
-CMakeFiles/ft_printf.dir/get_next_line.c.o.requires:
-
-.PHONY : CMakeFiles/ft_printf.dir/get_next_line.c.o.requires
-
-CMakeFiles/ft_printf.dir/get_next_line.c.o.provides: CMakeFiles/ft_printf.dir/get_next_line.c.o.requires
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/get_next_line.c.o.provides.build
-.PHONY : CMakeFiles/ft_printf.dir/get_next_line.c.o.provides
-
-CMakeFiles/ft_printf.dir/get_next_line.c.o.provides.build: CMakeFiles/ft_printf.dir/get_next_line.c.o
-
-
 CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../ft_printf/validate_input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o   -c /Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c
 
 CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.i: cmake_force
@@ -563,7 +539,7 @@ CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o.provides.build: CMakeFiles
 
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o: CMakeFiles/ft_printf.dir/flags.make
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o: ../ft_printf/ft_format_percent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o   -c /Users/mvukolov/Documents/ft_printf/ft_printf/ft_format_percent.c
 
 CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.i: cmake_force
@@ -606,7 +582,6 @@ ft_printf_OBJECTS = \
 "CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o" \
 "CMakeFiles/ft_printf.dir/main.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o" \
-"CMakeFiles/ft_printf.dir/get_next_line.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o" \
 "CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o"
 
@@ -632,13 +607,12 @@ ft_printf: CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o
 ft_printf: CMakeFiles/ft_printf.dir/main.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o
-ft_printf: CMakeFiles/ft_printf.dir/get_next_line.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o
 ft_printf: CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o
 ft_printf: CMakeFiles/ft_printf.dir/build.make
 ft_printf: libftprintf/liblibft.a
 ft_printf: CMakeFiles/ft_printf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking C executable ft_printf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable ft_printf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_printf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -665,7 +639,6 @@ CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/parse_modi
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/apply_format.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/main.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o.requires
-CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/get_next_line.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o.requires
 CMakeFiles/ft_printf.dir/requires: CMakeFiles/ft_printf.dir/ft_printf/ft_format_percent.c.o.requires
 

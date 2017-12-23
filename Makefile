@@ -18,8 +18,8 @@ $(NAME): $(OBJECTS)
 	ar rc libftprintf.a $(OBJECTS) libftprintf/*.o
 
 clean :
-	-rm $(OBJECTS)
+	-rm -v $(OBJECTS)
 fclean : clean
-	-rm $(NAME)
+	-rm -v $(NAME)
 re: fclean all
 

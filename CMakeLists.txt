@@ -23,7 +23,7 @@ set(SOURCE_FILES
         ft_printf/parse_modifiers.c
         ft_printf/apply_format.c
         main.c ft_printf/proccess_format.c
-        get_next_line.c ft_printf/validate_input.c ft_printf/ft_format_percent.c)
+        ft_printf/validate_input.c ft_printf/ft_format_percent.c)
 
 add_subdirectory(libftprintf)
 

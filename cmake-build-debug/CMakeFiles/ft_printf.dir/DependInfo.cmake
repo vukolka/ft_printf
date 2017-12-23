@@ -24,7 +24,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mvukolov/Documents/ft_printf/ft_printf/parse_modifiers.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o"
   "/Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o"
-  "/Users/mvukolov/Documents/ft_printf/get_next_line.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/get_next_line.c.o"
   "/Users/mvukolov/Documents/ft_printf/main.c" "/Users/mvukolov/Documents/ft_printf/cmake-build-debug/CMakeFiles/ft_printf.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

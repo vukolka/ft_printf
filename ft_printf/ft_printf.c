@@ -1,55 +1,54 @@
 #include "libft.h"
 #include "ft_printf.h"
 
+size_t	process_result(const char *format, va_list *ap, char **res)
+{
+	size_t 	total_len;
+	size_t	i;
+	char	*temp;
+
+	i = 0;
+	total_len = 0;
+	while (format[i])
+	{
+		if (format[i] == MODCHAR)
+		{
+			*res = ft_conncat(*res, format, total_len, i);
+			total_len += i;
+			format += i + 1;
+			i = apply_format(&format, &temp, *ap);
+			*res = ft_conncat(*res, temp, total_len, i);
+			total_len += i;
+			i = 0;
+		}
+		else
+			i++;
+	}
+	i = ft_strlen(format);
+	*res = ft_conncat(*res, format, total_len, i);
+	total_len += i;
+	return (total_len);
+}
+
 int     ft_printf(const char *format, ...)
 {
     va_list		ap;
     char		*res;
-    int			i;
-    int         total_len;
-    char		*temp;
+    size_t		size;
 
-    total_len = 0;
-    temp = NULL;
-    i = 0;
-    res = NULL;
-    va_start(ap, format);
-    while (format[i])
-    {
-		if(format[i] == MODCHAR)
-		{
-			total_len += i;
-            res = ft_conncat(res, format, i);
-            i++;
-            i += apply_format(format + i, &temp, ap);
-            res = ft_conncat(res, temp, ft_strlen(temp));
-            free(temp);
-            format += i;
-            i = 0;
-        }
-		else
-		    i++;
-    }
-    res = ft_conncat(res, format, ft_strlen(format));
-    va_end(ap);
-    ft_putstr(res);
-    i = ft_strlen(res);
+	res = NULL;
+	va_start(ap, format);
+	size = process_result(format, &ap, &res);
     free(res);
-    return (i);
+	va_end(ap);
+	write (1, res, size);
+    return ((int)size);
 }
 
-
 /*
- * res += until_format;
- * total_len += until_format;
- * total_len += format;
- * res += format;
  *
- *  write(1, res, total_len);
- */
-
-
-/*
- * if (current->format == 'x')
+ *
+ *
+ *
  *
  */

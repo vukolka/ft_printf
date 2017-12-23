@@ -150,26 +150,6 @@ ft_printf.h
 ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 
-/Users/mvukolov/Documents/ft_printf/get_next_line.c
-get_next_line.h
-/Users/mvukolov/Documents/ft_printf/get_next_line.h
-libft.h
-/Users/mvukolov/Documents/ft_printf/libft.h
-
-/Users/mvukolov/Documents/ft_printf/get_next_line.h
-sys/types.h
--
-sys/uio.h
--
-fcntl.h
--
-unistd.h
--
-stdlib.h
--
-string.h
--
-
 /Users/mvukolov/Documents/ft_printf/main.c
 stdio.h
 -
@@ -179,6 +159,4 @@ libft.h
 /Users/mvukolov/Documents/ft_printf/libft.h
 ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf.h
-get_next_line.h
-/Users/mvukolov/Documents/ft_printf/get_next_line.h
 

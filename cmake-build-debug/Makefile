@@ -676,33 +676,6 @@ ft_printf/validate_input.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.s
 .PHONY : ft_printf/validate_input.c.s
 
-get_next_line.o: get_next_line.c.o
-
-.PHONY : get_next_line.o
-
-# target to build an object file
-get_next_line.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/get_next_line.c.o
-.PHONY : get_next_line.c.o
-
-get_next_line.i: get_next_line.c.i
-
-.PHONY : get_next_line.i
-
-# target to preprocess a source file
-get_next_line.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/get_next_line.c.i
-.PHONY : get_next_line.c.i
-
-get_next_line.s: get_next_line.c.s
-
-.PHONY : get_next_line.s
-
-# target to generate assembly for a file
-get_next_line.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/get_next_line.c.s
-.PHONY : get_next_line.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -800,9 +773,6 @@ help:
 	@echo "... ft_printf/validate_input.o"
 	@echo "... ft_printf/validate_input.i"
 	@echo "... ft_printf/validate_input.s"
-	@echo "... get_next_line.o"
-	@echo "... get_next_line.i"
-	@echo "... get_next_line.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

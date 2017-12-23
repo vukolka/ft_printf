@@ -81,12 +81,7 @@ CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o
  ../libftprintf/libft.h
  /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
  /Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c
-CMakeFiles/ft_printf.dir/get_next_line.c.o
- ../libftprintf/libft.h
- /Users/mvukolov/Documents/ft_printf/get_next_line.c
- /Users/mvukolov/Documents/ft_printf/get_next_line.h
 CMakeFiles/ft_printf.dir/main.c.o
  ../ft_printf/ft_printf.h
  ../libftprintf/libft.h
- /Users/mvukolov/Documents/ft_printf/get_next_line.h
  /Users/mvukolov/Documents/ft_printf/main.c

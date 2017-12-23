@@ -35,10 +35,10 @@ char			*ft_format_D(va_list ap, char *mod);
 void			get_func_dict(t_dict **mods);
 int				get_modificator(const char *format, char **modstring);
 char			*get_right_format(t_format *current, va_list ap);
-char			*ft_conncat(char *res, const char *src, size_t len);
+char			*ft_conncat(char *res, const char *src, size_t l1, size_t l2);
 int				ft_printf(const char *format, ...);
 t_format		*parse_modifiers(char *mods, t_format *current);
-int			    apply_format(const char *format, char **res, va_list ap);
+size_t			apply_format(const char **format, char **res, va_list ap);
 char			*process_format(t_format *current, va_list ap);
 char			*apply_flags(t_format *current, char *src);
 

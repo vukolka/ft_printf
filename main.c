@@ -2,11 +2,9 @@
 #include <fcntl.h>
 #include "libft.h"
 #include "ft_printf.h"
-#include "get_next_line.h"
 
 int     main()
 {
-	ft_printf("%-05o\n", 2500);
-	printf("%-05o", 2500);
+	ft_printf("% c", 0);
     return (1);
 }
