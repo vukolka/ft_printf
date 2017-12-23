@@ -12,7 +12,5 @@ char    *ft_format_c(va_list ap, char *mod)
 		return (NULL);
 	a = va_arg(ap, int);
     ret[0] = a;
-	if (a == 0)
-		ret[0] = -69;
 	return (ret);
 }

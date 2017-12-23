@@ -5,6 +5,5 @@
 
 int     main()
 {
-	ft_printf("% c", 0);
     return (1);
 }
