@@ -5,6 +5,6 @@
 
 int     main()
 {
-	ft_printf("%%04i 42 == |%04i|", 42);
+	ft_printf("%s == |%04i|","%-i 42", 42);
     return (1);
 }
