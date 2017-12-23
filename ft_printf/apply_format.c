@@ -15,6 +15,8 @@ size_t	apply_format(const char **format, char **res, va_list ap)
     *res = process_format(current, ap);
 	size = ft_strlen(*res);
     free(modstring);
+	if ((modstring = ft_strchr(*res, -69)))
+		*modstring = 0;
 	free(current->format);
 	free(current);
 	return (size);

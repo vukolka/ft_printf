@@ -12,5 +12,5 @@ char	*get_right_format(t_format *current, va_list ap)
 		get_func_dict(&mods);
     if((curr = ft_dict_get(current->format, mods)))
         return (curr->func(ap, current->format_mod));
-	return (NULL); // should place exit function instead of null return
+	exit(0);
 }
