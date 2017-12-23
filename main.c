@@ -5,6 +5,6 @@
 
 int     main()
 {
-	ft_printf("%s == |%04i|","%-i 42", 42);
+	ft_printf("%unsigned pouet camembert !!");
     return (1);
 }

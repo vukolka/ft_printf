@@ -16,9 +16,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2da9bbd-bf35-4b70-a2f3-217d50f8a6b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/ft_printf/apply_format.c" afterPath="$PROJECT_DIR$/ft_printf/apply_format.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_c.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_c.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf.a" afterPath="$PROJECT_DIR$/libftprintf.a" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf" />
+      <change beforePath="$PROJECT_DIR$/ft_printf/ft_printf.c" afterPath="$PROJECT_DIR$/ft_printf/ft_printf.c" />
       <change beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -121,17 +121,19 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ft_printf.c" pinned="false" current-in-tab="false">
+          <file leaf-file-name="ft_printf.c" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ft_printf/ft_printf.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-                  <folding />
+                <state relative-caret-position="306">
+                  <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+                  <folding>
+                    <element signature="e#0#18#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ft_format_c.c" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ft_format_c.c" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ft_printf/ft_format_c.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
@@ -155,7 +157,7 @@
             <entry file="file://$PROJECT_DIR$/main.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="119">
-                  <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+                  <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
                   </folding>
@@ -216,16 +218,16 @@
         <option value="$PROJECT_DIR$/libftprintf/ft_strncat.c" />
         <option value="$PROJECT_DIR$/libftprintf/ft_memcat.c" />
         <option value="$PROJECT_DIR$/libftprintf/libft.h" />
-        <option value="$PROJECT_DIR$/ft_printf/ft_printf.c" />
         <option value="$PROJECT_DIR$/ft_printf/proccess_format.c" />
         <option value="$PROJECT_DIR$/ft_printf/ft_printf.h" />
         <option value="$PROJECT_DIR$/ft_printf/apply_flags.c" />
         <option value="$PROJECT_DIR$/ft_printf/get_right_format.c" />
         <option value="$PROJECT_DIR$/libftprintf/ft_strncpy.c" />
         <option value="$PROJECT_DIR$/ft_printf/ft_conncat.c" />
-        <option value="$PROJECT_DIR$/main.c" />
         <option value="$PROJECT_DIR$/ft_printf/ft_format_c.c" />
         <option value="$PROJECT_DIR$/ft_printf/apply_format.c" />
+        <option value="$PROJECT_DIR$/main.c" />
+        <option value="$PROJECT_DIR$/ft_printf/ft_printf.c" />
       </list>
     </option>
   </component>
@@ -462,7 +464,7 @@
       <workItem from="1513457043233" duration="12307000" />
       <workItem from="1513476353790" duration="649000" />
       <workItem from="1513972823989" duration="11585000" />
-      <workItem from="1513995716931" duration="5765000" />
+      <workItem from="1513995716931" duration="6186000" />
     </task>
     <task id="LOCAL-00001" summary="changed structure">
       <created>1512809847742</created>
@@ -475,7 +477,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66700000" />
+    <option name="totallyTimeSpent" value="67121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -497,7 +499,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3197556" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25539568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23669064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23669064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18984374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25395682" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08828125" sideWeight="0.50754714" order="2" side_tool="true" content_ui="tabs" />
@@ -818,22 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_printf/ft_printf.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ft_printf/ft_printf.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libftprintf/ft_dict_add.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -882,10 +868,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ft_printf/apply_format.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_printf/ft_printf.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="41" column="40" lean-forward="false" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -900,11 +902,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_printf/apply_format.c">
+    <entry file="file://$PROJECT_DIR$/ft_printf/ft_printf.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="306">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

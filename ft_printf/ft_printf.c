@@ -1,7 +1,7 @@
 #include "libft.h"
 #include "ft_printf.h"
 
-size_t	process_result(const char *format, va_list *ap, char **res)
+size_t	process_result(const char *format, va_list ap, char **res)
 {
 	size_t 	total_len;
 	size_t	i;
@@ -16,7 +16,7 @@ size_t	process_result(const char *format, va_list *ap, char **res)
 			*res = ft_conncat(*res, format, total_len, i);
 			total_len += i;
 			format += i + 1;
-			i = apply_format(&format, &temp, *ap);
+			i = apply_format(&format, &temp, ap);
 			*res = ft_conncat(*res, temp, total_len, i);
 			total_len += i;
 			i = 0;
@@ -38,7 +38,7 @@ int     ft_printf(const char *format, ...)
 
 	res = NULL;
 	va_start(ap, format);
-	size = process_result(format, &ap, &res);
+	size = process_result(format, ap, &res);
     free(res);
 	va_end(ap);
 	write (1, res, size);
