@@ -1,7 +1,7 @@
 #include "libft.h"
 #include "ft_printf.h"
 
-size_t	process_result(const char *format, va_list ap, char **res)
+static size_t	process_result(const char *format, va_list ap, char **res)
 {
 	size_t 	total_len;
 	size_t	i;

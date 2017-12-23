@@ -5,6 +5,6 @@
 
 int     main()
 {
-	ft_printf("%unsigned pouet camembert !!");
+	ft_printf("%%%s pouet camembert !!", "étaitunsoirde");
     return (1);
 }
