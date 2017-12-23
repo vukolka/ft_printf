@@ -33,12 +33,12 @@ static size_t	process_result(const char *format, va_list ap, char **res)
 int     ft_printf(const char *format, ...)
 {
     va_list		ap;
-    void		*res;
+    char		*res;
     size_t		size;
 
 	res = NULL;
 	va_start(ap, format);
-	size = process_result(format, ap, (char**)&res);
+	size = process_result(format, ap, &res);
     free(res);
 	write (1, res, size);
 	va_end(ap);
