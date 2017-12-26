@@ -12,5 +12,6 @@ char    *ft_format_c(va_list ap, char *mod)
 		return (NULL);
 	a = va_arg(ap, int);
     ret[0] = a;
+	ret[1] = 0;
 	return (ret);
 }
