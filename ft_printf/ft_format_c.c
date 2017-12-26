@@ -3,7 +3,7 @@
 
 char    *ft_format_c(va_list ap, char *mod)
 {
-    unsigned char a;
+    char	a;
 	char	*ret;
 	*mod = *mod;
 
