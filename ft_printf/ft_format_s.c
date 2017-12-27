@@ -31,6 +31,7 @@ char    *ft_format_S(va_list ap, char *mod)
 	char		*res;
 	size_t 		i;
 
+	*mod = *mod;
 	i = 0;
 	a = va_arg(ap, wchar_t*);
 	res = ft_strnew(ft_wstrlen(a)*2);

@@ -4,14 +4,8 @@
 
 int     main()
 {
-	int c;
-	wchar_t a[3];
-	a[0] = '@';
-	a[1] = '@';
-	a[2] = 0;
-	c = printf("%S", a);
-	printf("%d\n",c);
-	c = ft_printf("%S", a);
-	printf("%d\n",c);
+	ft_printf(" %c", 0);
+	printf("\n");
+	printf(" %c", 0);
     return (1);
 }

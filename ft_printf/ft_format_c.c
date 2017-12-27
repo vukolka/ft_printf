@@ -12,9 +12,7 @@ char    *ft_format_c(va_list ap, char *mod)
 		return (NULL);
 	a = (char)va_arg(ap, int);
 	if (a == 0)
-	{
 		a = -42;
-	}
     ret[0] = a;
 	ret[1] = 0;
 	return (ret);
