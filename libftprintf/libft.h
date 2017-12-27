@@ -34,6 +34,7 @@ typedef	struct			s_dict
 	struct s_dict		*next;
 }						t_dict;
 
+int						ft_wstrlen(wchar_t *str);
 int						ft_isspace(char c);
 void					ft_strupper(char *a);
 char*					ft_itoa_base(unsigned long long int n, int base);

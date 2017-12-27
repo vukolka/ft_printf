@@ -14,6 +14,8 @@ size_t	apply_format(const char **format, char **res, va_list ap)
     parse_modifiers(modstring, current);
     *res = process_format(current, ap);
 	size = ft_strlen(*res);
+	if (current->format[0] == 'S')
+		size = ft_wstrlen(res);
     free(modstring);
 	free(current->format);
 	free(current);

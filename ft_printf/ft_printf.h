@@ -6,6 +6,7 @@
 # define MODSLIST "sSpd%DioOuUxXcC"
 # define MODCHAR '%'
 # define MODSCHAR "lhjz"
+static	int s_len;
 typedef struct	s_format
 {
 	int			sharp;
@@ -19,6 +20,7 @@ typedef struct	s_format
 	char		*format_mod;
 }				t_format;
 
+int				ft_wstrlen(wchar_t *str);
 char		    *ft_format_U(va_list ap, char *mod);
 int 		    validate_flags(t_format *current);
 char            *ft_format_percent(va_list ap, char *mod);
