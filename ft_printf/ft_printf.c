@@ -40,8 +40,8 @@ int     ft_printf(const char *format, ...)
 	res = NULL;
 	va_start(ap, format);
 	size = process_result(format, ap, &res);
-    free(res);
 	write (1, res, size);
+	free(res);
 	va_end(ap);
     return ((int)size);
 }
