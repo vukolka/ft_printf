@@ -5,10 +5,7 @@
 
 int     main()
 {
-	wchar_t *a = malloc (20);
-	a[0] = L'a';
-	a[1] = L'a';
-	a[2] = 0;
+	wchar_t a[3] = L"aa";
 
 	int d = printf("%S", a);
 	printf("\n");
