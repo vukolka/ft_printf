@@ -15,9 +15,9 @@ char    *ft_format_s(va_list ap, char *mod)
 }
 char    *ft_format_S(va_list ap, char *mod)
 {
-    char        *a;
+    wchar_t		*a;
 
     *mod = *mod;
-    a = ft_strdup(va_arg(ap, char*));
+    a = va_arg(ap, wchar_t*);
     return (a);
 }

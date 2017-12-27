@@ -5,7 +5,5 @@
 
 int     main()
 {
-	char *a = NULL;
-	ft_printf("%spouet camembert !!", a);
     return (1);
 }
