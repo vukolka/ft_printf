@@ -153,8 +153,6 @@ ft_printf.h
 /Users/mvukolov/Documents/ft_printf/main.c
 stdio.h
 -
-fcntl.h
--
 libft.h
 /Users/mvukolov/Documents/ft_printf/libft.h
 ft_printf.h

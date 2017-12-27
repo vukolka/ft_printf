@@ -28,27 +28,23 @@ char    *ft_format_s(va_list ap, char *mod)
 char    *ft_format_S(va_list ap, char *mod)
 {
     wchar_t		*a;
-	char *res;
-	int i;
-	int j;
-	int t;
-	char *temp;
+	char		*res;
+	size_t 		i;
 
-	t = 0;
-	j = 0;
+	i = 0;
 	a = va_arg(ap, wchar_t*);
-	i = ft_wstrlen(a) * 4;
-	res = malloc(i + 1);
-	temp = (char *)a;
-	while (t < i)
+	res = ft_strnew(ft_wstrlen(a)*2);
+	while (a[i])
 	{
-		if (temp[t])
+		if (a[i] < 128)
+			res[i] = (char) a[i];
+		else
 		{
-			res[j] = temp[t];
-			j++;
+			res[i] = '?';
+			if (a[i] >= 0xD800 && a[i] <= 0xD8FF)
+				i++;
 		}
-		t++;
+		i++;
 	}
-	res[j] = 0;
     return (res);
 }

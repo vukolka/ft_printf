@@ -1,18 +1,14 @@
 #include <stdio.h>
-#include <fcntl.h>
 #include "libft.h"
 #include "ft_printf.h"
 
 int     main()
 {
-	wchar_t *a = L"华语";
-
-	int d = printf("%S", a);
-	printf("\n");
-	int c = ft_printf("%S", a);
-	printf("\n");
-
-	printf("std %d\n", d);
-	printf("ft %d", c);
+	wchar_t *a = malloc(6);
+	a[0] = 'a';
+	a[1] = 'a';
+	a[2] = 0;
+	printf("%S\n", a);
+	ft_printf("%S", a);
     return (1);
 }
