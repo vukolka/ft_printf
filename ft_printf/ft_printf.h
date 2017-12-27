@@ -6,7 +6,6 @@
 # define MODSLIST "sSpd%DioOuUxXcC"
 # define MODCHAR '%'
 # define MODSCHAR "lhjz"
-static	int s_len;
 typedef struct	s_format
 {
 	int			sharp;
