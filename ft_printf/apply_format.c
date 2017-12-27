@@ -5,7 +5,7 @@ size_t	apply_format(const char **format, char **res, va_list ap)
 {
     int     i;
 	size_t 	size;
-    char    *modstring;
+    char 	*modstring;
     t_format *current;
 
     current = (t_format*)malloc(sizeof(t_format));

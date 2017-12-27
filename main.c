@@ -5,7 +5,7 @@
 
 int     main()
 {
-	char *a = "unsigned";
-	ft_printf("%s    pouet camembert !!", a);
+	char *a = NULL;
+	ft_printf("%spouet camembert !!", a);
     return (1);
 }
