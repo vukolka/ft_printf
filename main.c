@@ -5,14 +5,14 @@
 
 int     main()
 {
-	wchar_t *a = L"1234";
+	wchar_t *a = L"华语";
 
 	int d = printf("%S", a);
 	printf("\n");
 	int c = ft_printf("%S", a);
 	printf("\n");
 
-	printf("%d\n", c);
-	printf("%d", d);
+	printf("std %d\n", d);
+	printf("ft %d", c);
     return (1);
 }
