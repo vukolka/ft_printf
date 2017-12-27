@@ -18,6 +18,6 @@ size_t	apply_format(const char **format, char **res, va_list ap)
 	free(current->format);
 	free(current);
 	if ((modstring = ft_strchr(*res, -42)))
-		*modstring == 0;
+		*modstring = 0;
 	return (size);
 }

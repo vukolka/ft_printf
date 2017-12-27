@@ -17,9 +17,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2da9bbd-bf35-4b70-a2f3-217d50f8a6b7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/ft_printf/apply_format.c" afterPath="$PROJECT_DIR$/ft_printf/apply_format.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_c.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_c.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_printf.h" afterPath="$PROJECT_DIR$/ft_printf/ft_printf.h" />
-      <change beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +38,7 @@
             <entry file="file://$PROJECT_DIR$/ft_printf/apply_format.c">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+                  <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -412,7 +409,7 @@
       <workItem from="1514328901223" duration="1102000" />
       <workItem from="1514335131959" duration="1020000" />
       <workItem from="1514340821225" duration="9078000" />
-      <workItem from="1514413017353" duration="2428000" />
+      <workItem from="1514413017353" duration="2564000" />
     </task>
     <task id="LOCAL-00001" summary="changed structure">
       <created>1512809847742</created>
@@ -425,7 +422,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87196000" />
+    <option name="totallyTimeSpent" value="87332000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -833,7 +830,7 @@
     <entry file="file://$PROJECT_DIR$/ft_printf/apply_format.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
