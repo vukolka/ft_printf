@@ -5,7 +5,7 @@
 
 int     main()
 {
-	wchar_t a[3] = L"aa";
+	wchar_t *a = L"1234";
 
 	int d = printf("%S", a);
 	printf("\n");
