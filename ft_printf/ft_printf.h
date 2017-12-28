@@ -26,7 +26,7 @@ char            *ft_format_percent(va_list ap, char *mod);
 char			*ft_format_X(va_list ap, char *mod);
 char			*ft_format_x(va_list ap, char *mod);
 char			*ft_format_s(va_list ap, char *mod);
-char			*ft_format_S(va_list ap, char *mod);
+char			*ft_format_ss(va_list ap, char *mod);
 char			*ft_format_c(va_list ap, char *mod);
 char			*ft_format_p(va_list ap, char *mod);
 char			*ft_format_u(va_list ap, char *mod);
