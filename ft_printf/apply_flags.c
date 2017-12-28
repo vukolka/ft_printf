@@ -45,6 +45,8 @@ char    *process_precision(t_format *format, char *s1)
 		return (s1);
 	}
 	i = period - ft_strlen(s1);
+	if (ft_atoi(s1) < 0)
+		i++;
     if (i < 0 && format->format[0] != 's')
         return (s1);
     a = ft_strnew(period);
@@ -53,7 +55,7 @@ char    *process_precision(t_format *format, char *s1)
 		if (*s1 == '-')
 		{
 			*a = '-';
-			ft_memset(a + 1, '0', i + 1);
+			ft_memset(a + 1, '0', i);
 			ft_strcat(a, s1 + 1);
 		}
 		else
@@ -102,6 +104,9 @@ char	*process_zero_width(t_format *fomat, char *s1)
 	int         period;
 	char        c;
 
+	if (fomat->plus && ft_atoi(s1) > 0
+		&& fomat->zero)
+		fomat->f_width--;
 	if (!fomat->zero || fomat->period)
 		return (s1);
 	c = '0';

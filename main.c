@@ -2,9 +2,10 @@
 #include "libft.h"
 #include "ft_printf.h"
 
+
 int     main()
 {
-	ft_printf("%0+5d\n", 42);
-	printf("%0+5d", 42);
-    return (1);
+	ft_printf("%03.2d\n", -1);
+	printf("%03.2d", -1);
+	return (1);
 }
