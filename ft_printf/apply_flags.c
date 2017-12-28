@@ -39,6 +39,8 @@ char    *process_precision(t_format *format, char *s1)
         return (s1);
 	if (period == -1 && ft_strchr("xXuodi", *(format->format)) && !ft_atoi(s1))
 	{
+		if (format->format[0] == 'o' && format->sharp)
+			return (s1);
 		*s1 = 0;
 		return (s1);
 	}
@@ -73,8 +75,8 @@ char    *process_width(t_format *current, char *s1)
     int         period;
     char        c;
 
-    c = ' ';
-    period = current->f_width;
+	c = ' ';
+	period = current->f_width;
     i = period - ft_strlen(s1);
     if (i < 0)
         return (s1);
@@ -100,7 +102,7 @@ char	*process_zero_width(t_format *fomat, char *s1)
 	int         period;
 	char        c;
 
-	if (!fomat->zero)
+	if (!fomat->zero || fomat->period)
 		return (s1);
 	c = '0';
 	period = fomat->f_width;
@@ -139,7 +141,7 @@ char    *process_plus(int plus, char *s1)
     if (!plus)
         return (s1);
     res = s1;
-    if(s1[0] != '-')
+    if (s1[0] != '-')
     {
         res = ft_conncat(ft_strdup("+"), s1, 1, ft_strlen(s1));
         free(s1);
@@ -169,7 +171,7 @@ char    *apply_flags(t_format *current, char *src)
 		src = process_precision(current, src);
 	if (current->sharp
 		&& current->zero)
-		current->f_width -= 2;
+	current->f_width -= 2;
 	src = process_zero_width(current, src);
 	if (current -> sharp)
 		src = process_sharp(current, src);
@@ -179,7 +181,7 @@ char    *apply_flags(t_format *current, char *src)
 		&& current->format[0] != 'c')
         if(src[0] != '-')
             src = process_space(src);
-	if (!current -> zero)
+	if (!current -> zero || current->period)
 		src = process_width(current,src);
     return (src);
 }

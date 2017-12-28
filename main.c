@@ -4,8 +4,7 @@
 
 int     main()
 {
-	ft_printf(" %c", 0);
-	printf("\n");
-	printf(" %c", 0);
+	ft_printf("%0+5d\n", 42);
+	printf("%0+5d", 42);
     return (1);
 }

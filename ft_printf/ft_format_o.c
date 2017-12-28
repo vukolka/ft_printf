@@ -20,5 +20,7 @@ char    *ft_format_o(va_list ap, char *mod)
         a = va_arg(ap, size_t);
     else if(*mod == 0)
         a = va_arg(ap, unsigned int);
+	if (a == 0)
+		return (ft_strdup("0"));
     return (ft_itoa_base(a, 8));
 }
