@@ -514,33 +514,6 @@ ft_printf/get_modificator.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.s
 .PHONY : ft_printf/get_modificator.c.s
 
-ft_printf/get_next_format.o: ft_printf/get_next_format.c.o
-
-.PHONY : ft_printf/get_next_format.o
-
-# target to build an object file
-ft_printf/get_next_format.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o
-.PHONY : ft_printf/get_next_format.c.o
-
-ft_printf/get_next_format.i: ft_printf/get_next_format.c.i
-
-.PHONY : ft_printf/get_next_format.i
-
-# target to preprocess a source file
-ft_printf/get_next_format.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.i
-.PHONY : ft_printf/get_next_format.c.i
-
-ft_printf/get_next_format.s: ft_printf/get_next_format.c.s
-
-.PHONY : ft_printf/get_next_format.s
-
-# target to generate assembly for a file
-ft_printf/get_next_format.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.s
-.PHONY : ft_printf/get_next_format.c.s
-
 ft_printf/get_right_format.o: ft_printf/get_right_format.c.o
 
 .PHONY : ft_printf/get_right_format.o
@@ -567,33 +540,6 @@ ft_printf/get_right_format.s: ft_printf/get_right_format.c.s
 ft_printf/get_right_format.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.s
 .PHONY : ft_printf/get_right_format.c.s
-
-ft_printf/modify_flags.o: ft_printf/modify_flags.c.o
-
-.PHONY : ft_printf/modify_flags.o
-
-# target to build an object file
-ft_printf/modify_flags.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o
-.PHONY : ft_printf/modify_flags.c.o
-
-ft_printf/modify_flags.i: ft_printf/modify_flags.c.i
-
-.PHONY : ft_printf/modify_flags.i
-
-# target to preprocess a source file
-ft_printf/modify_flags.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.i
-.PHONY : ft_printf/modify_flags.c.i
-
-ft_printf/modify_flags.s: ft_printf/modify_flags.c.s
-
-.PHONY : ft_printf/modify_flags.s
-
-# target to generate assembly for a file
-ft_printf/modify_flags.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.s
-.PHONY : ft_printf/modify_flags.c.s
 
 ft_printf/parse_modifiers.o: ft_printf/parse_modifiers.c.o
 
@@ -648,33 +594,6 @@ ft_printf/proccess_format.s: ft_printf/proccess_format.c.s
 ft_printf/proccess_format.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.s
 .PHONY : ft_printf/proccess_format.c.s
-
-ft_printf/validate_input.o: ft_printf/validate_input.c.o
-
-.PHONY : ft_printf/validate_input.o
-
-# target to build an object file
-ft_printf/validate_input.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o
-.PHONY : ft_printf/validate_input.c.o
-
-ft_printf/validate_input.i: ft_printf/validate_input.c.i
-
-.PHONY : ft_printf/validate_input.i
-
-# target to preprocess a source file
-ft_printf/validate_input.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.i
-.PHONY : ft_printf/validate_input.c.i
-
-ft_printf/validate_input.s: ft_printf/validate_input.c.s
-
-.PHONY : ft_printf/validate_input.s
-
-# target to generate assembly for a file
-ft_printf/validate_input.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.dir/build.make CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.s
-.PHONY : ft_printf/validate_input.c.s
 
 main.o: main.c.o
 
@@ -755,24 +674,15 @@ help:
 	@echo "... ft_printf/get_modificator.o"
 	@echo "... ft_printf/get_modificator.i"
 	@echo "... ft_printf/get_modificator.s"
-	@echo "... ft_printf/get_next_format.o"
-	@echo "... ft_printf/get_next_format.i"
-	@echo "... ft_printf/get_next_format.s"
 	@echo "... ft_printf/get_right_format.o"
 	@echo "... ft_printf/get_right_format.i"
 	@echo "... ft_printf/get_right_format.s"
-	@echo "... ft_printf/modify_flags.o"
-	@echo "... ft_printf/modify_flags.i"
-	@echo "... ft_printf/modify_flags.s"
 	@echo "... ft_printf/parse_modifiers.o"
 	@echo "... ft_printf/parse_modifiers.i"
 	@echo "... ft_printf/parse_modifiers.s"
 	@echo "... ft_printf/proccess_format.o"
 	@echo "... ft_printf/proccess_format.i"
 	@echo "... ft_printf/proccess_format.s"
-	@echo "... ft_printf/validate_input.o"
-	@echo "... ft_printf/validate_input.i"
-	@echo "... ft_printf/validate_input.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

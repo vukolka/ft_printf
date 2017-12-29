@@ -17,13 +17,11 @@ set(SOURCE_FILES
         ft_printf/ft_printf.h
         ft_printf/get_func_dict.c
         ft_printf/get_modificator.c
-        ft_printf/get_next_format.c
         ft_printf/get_right_format.c
-        ft_printf/modify_flags.c
         ft_printf/parse_modifiers.c
         ft_printf/apply_format.c
         main.c ft_printf/proccess_format.c
-        ft_printf/validate_input.c ft_printf/ft_format_percent.c)
+        ft_printf/ft_format_percent.c)
 
 add_subdirectory(libftprintf)
 

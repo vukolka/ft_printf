@@ -57,17 +57,9 @@ CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/get_modificator.c.o: ../ft_printf/get_modificator.c
 
-CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o: ../libftprintf/libft.h
-CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/ft_printf.dir/ft_printf/get_next_format.c.o: ../ft_printf/get_next_format.c
-
 CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/get_right_format.c.o: ../ft_printf/get_right_format.c
-
-CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o: ../libftprintf/libft.h
-CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/ft_printf.dir/ft_printf/modify_flags.c.o: ../ft_printf/modify_flags.c
 
 CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o: ../ft_printf/ft_printf.h
@@ -76,10 +68,6 @@ CMakeFiles/ft_printf.dir/ft_printf/parse_modifiers.c.o: ../ft_printf/parse_modif
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../libftprintf/libft.h
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/ft_printf/proccess_format.c.o: ../ft_printf/proccess_format.c
-
-CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../libftprintf/libft.h
-CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../ft_printf/ft_printf.h
-CMakeFiles/ft_printf.dir/ft_printf/validate_input.c.o: ../ft_printf/validate_input.c
 
 CMakeFiles/ft_printf.dir/main.c.o: ../ft_printf/ft_printf.h
 CMakeFiles/ft_printf.dir/main.c.o: ../libftprintf/libft.h

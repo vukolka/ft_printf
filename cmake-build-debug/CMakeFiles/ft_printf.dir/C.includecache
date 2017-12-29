@@ -116,19 +116,7 @@ libft.h
 ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 
-/Users/mvukolov/Documents/ft_printf/ft_printf/get_next_format.c
-libft.h
-/Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
-ft_printf.h
-/Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
-
 /Users/mvukolov/Documents/ft_printf/ft_printf/get_right_format.c
-libft.h
-/Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
-ft_printf.h
-/Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
-
-/Users/mvukolov/Documents/ft_printf/ft_printf/modify_flags.c
 libft.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
 ft_printf.h
@@ -143,10 +131,6 @@ ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/proccess_format.c
 libft.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/libft.h
-ft_printf.h
-/Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
-
-/Users/mvukolov/Documents/ft_printf/ft_printf/validate_input.c
 ft_printf.h
 /Users/mvukolov/Documents/ft_printf/ft_printf/ft_printf.h
 

@@ -1,20 +1,32 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   apply_format.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/12/28 07:42:16 by mvukolov          #+#    #+#             */
+/*   Updated: 2017/12/28 07:42:17 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 #include "ft_printf.h"
 
 size_t	apply_format(const char **format, char **res, va_list ap)
 {
-    int     i;
-	size_t 	size;
-    char 	*modstring;
-    t_format *current;
+	int			i;
+	size_t		size;
+	char		*modstring;
+	t_format	*current;
 
-    current = (t_format*)malloc(sizeof(t_format));
-    i = get_modificator(*format, &modstring);
+	current = (t_format*)malloc(sizeof(t_format));
+	i = get_modificator(*format, &modstring);
 	*format += i;
-    parse_modifiers(modstring, current);
-    *res = process_format(current, ap);
+	parse_modifiers(modstring, current);
+	*res = process_format(current, ap);
 	size = ft_strlen(*res);
-    free(modstring);
+	free(modstring);
 	free(current->format);
 	free(current);
 	if ((modstring = ft_strchr(*res, -42)))

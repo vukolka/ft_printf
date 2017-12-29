@@ -20,10 +20,10 @@ typedef struct	s_format
 }				t_format;
 
 int				ft_wstrlen(wchar_t *str);
-char		    *ft_format_U(va_list ap, char *mod);
+char		    *ft_format_uu(va_list ap, char *mod);
 int 		    validate_flags(t_format *current);
 char            *ft_format_percent(va_list ap, char *mod);
-char			*ft_format_X(va_list ap, char *mod);
+char			*ft_format_xx(va_list ap, char *mod);
 char			*ft_format_x(va_list ap, char *mod);
 char			*ft_format_s(va_list ap, char *mod);
 char			*ft_format_ss(va_list ap, char *mod);
@@ -32,7 +32,7 @@ char			*ft_format_p(va_list ap, char *mod);
 char			*ft_format_u(va_list ap, char *mod);
 char			*ft_format_o(va_list ap, char *mod);
 char			*ft_format_d(va_list ap, char *mod);
-char			*ft_format_D(va_list ap, char *mod);
+char			*ft_format_dd(va_list ap, char *mod);
 void			get_func_dict(t_dict **mods);
 int				get_modificator(const char *format, char **modstring);
 char			*get_right_format(t_format *current, va_list ap);
