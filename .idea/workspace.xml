@@ -16,41 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2da9bbd-bf35-4b70-a2f3-217d50f8a6b7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
       <change beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/C.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/C.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/DependInfo.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/build.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/cmake_clean.cmake" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/link.txt" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ft_printf.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ft_printf.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/ft_printf.cbp" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libftprintf/CMakeFiles/libft.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/libftprintf/CMakeFiles/libft.dir/progress.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/libftprintf/liblibft.a" afterPath="$PROJECT_DIR$/cmake-build-debug/libftprintf/liblibft.a" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/apply_format.c" afterPath="$PROJECT_DIR$/ft_printf/apply_format.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_conncat.c" afterPath="$PROJECT_DIR$/ft_printf/ft_conncat.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_d.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_d.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_p.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_p.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_percent.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_percent.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_u.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_u.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_format_x.c" afterPath="$PROJECT_DIR$/ft_printf/ft_format_x.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/ft_printf.h" afterPath="$PROJECT_DIR$/ft_printf/ft_printf.h" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/get_func_dict.c" afterPath="$PROJECT_DIR$/ft_printf/get_func_dict.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/get_modificator.c" afterPath="$PROJECT_DIR$/ft_printf/get_modificator.c" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/get_next_format.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/modify_flags.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ft_printf/validate_input.c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libftprintf.a" afterPath="$PROJECT_DIR$/libftprintf.a" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/ft_dict_add.c" afterPath="$PROJECT_DIR$/libftprintf/ft_dict_add.c" />
-      <change beforePath="$PROJECT_DIR$/libftprintf/libft.a" afterPath="$PROJECT_DIR$/libftprintf/libft.a" />
-      <change beforePath="$PROJECT_DIR$/main.c" afterPath="$PROJECT_DIR$/main.c" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -291,7 +257,7 @@
       <workItem from="1514436728558" duration="3186000" />
       <workItem from="1514448052679" duration="244000" />
       <workItem from="1514532812614" duration="77000" />
-      <workItem from="1514532901934" duration="2087000" />
+      <workItem from="1514532901934" duration="2231000" />
     </task>
     <task id="LOCAL-00001" summary="changed structure">
       <created>1512809847742</created>
@@ -304,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101522000" />
+    <option name="totallyTimeSpent" value="101666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -317,8 +283,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08828125" sideWeight="0.48916116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08828125" sideWeight="0.48916116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28680557" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328777" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -563,13 +530,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ft_printf/ft_format_percent.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ft_printf/ft_format_u.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -673,6 +633,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="117" column="17" lean-forward="false" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ft_printf/ft_format_percent.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           <folding />
         </state>
       </provider>
