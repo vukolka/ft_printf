@@ -1,4 +1,4 @@
-NAME=build
+NAME=libftprintf
 FLAGS=-Wall -Wextra -Werror
 OBJECTS = ft_printf/ft_printf.o ft_printf/ft_conncat.o ft_printf/ft_format_d.o \
 ft_printf/get_right_format.o ft_printf/get_modificator.o ft_printf/get_func_dict.o \
