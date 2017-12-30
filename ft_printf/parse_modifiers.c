@@ -1,7 +1,7 @@
 #include "libft.h"
 #include "ft_printf.h"
 
-void static	fill_with_zeros(t_format *current)
+static void	fill_with_zeros(t_format *current)
 {
 	current->sharp = 0;
 	current->f_width = 0;
@@ -14,7 +14,43 @@ void static	fill_with_zeros(t_format *current)
 	current->format_mod = ft_strnew(3);
 }
 
+void		parse_period(t_format *current, char **mods)
+{
+	if (**mods != '.')
+		return ;
+	(*mods)++;
+	current->period = ft_atoi(*mods);
+	if (current->period == 0)
+		current->period = -1;
+	while (ft_isdigit(**mods))
+		(*mods)++;
+}
 
+void		parse_xsflags(t_format *current, char mod)
+{
+	if (mod == '#')
+		current->sharp = 1;
+	else if (mod == '+')
+		current->plus = 1;
+	else if (mod == ' ')
+		current->space = 1;
+	else if (mod == '-')
+		current->minus = 1;
+	else if (mod == '0')
+		current->zero = 1;
+}
+
+int 		parse_conv(char *mods, t_format *current)
+{
+	if(ft_strchr(MODSLIST, *mods))
+	{
+		if (*mods == 'i')
+			*mods = 'd';
+		(current->format)[0] = *mods;
+		return (1);
+	}
+	return (0);
+}
 
 t_format	*parse_modifiers(char *mods, t_format *current)
 {
@@ -24,27 +60,9 @@ t_format	*parse_modifiers(char *mods, t_format *current)
 	fill_with_zeros(current);
 	while (*mods)
 	{
-		if (*mods == '#')
-			current->sharp = 1;
-		else if (*mods == '+')
-			current->plus = 1;
-		else if (*mods == ' ')
-			current->space = 1;
-		else if (*mods == '-')
-			current->minus = 1;
-		else if (*mods == '.')
-		{
-			mods++;
-			current->period = ft_atoi(mods);
-			if (current->period == 0)
-				current->period = -1;
-			while (ft_isdigit(*mods))
-				mods++;
-			continue;
-		}
-		else if (*mods == '0')
-			current->zero = 1;
-		else if (ft_isdigit(*mods) && *mods != '0')
+		parse_xsflags(current, *mods);
+		parse_period(current, &mods);
+		if (ft_isdigit(*mods) && *mods != '0')
 		{
 			current->f_width = ft_atoi(mods);
 			while (ft_isdigit(*mods))
@@ -56,14 +74,8 @@ t_format	*parse_modifiers(char *mods, t_format *current)
 			(current->format_mod)[i++] = *mods;
 			mods++;
 		}
-		i = 0;
-		if(ft_strchr(MODSLIST, *mods))
-		{
-			if (*mods == 'i')
-				*mods = 'd';
-			(current->format)[i++] = *mods;
+		if (parse_conv(mods, current))
 			return current;
-		}
 		mods++;
 	}	
 	return (NULL);

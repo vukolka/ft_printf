@@ -97,6 +97,17 @@ char    *process_width(t_format *current, char *s1)
     return (a);
 }
 
+char	*subprocess_zero_width(t_format *format, char *res, char *src, int len)
+{
+	char c = '0';
+	if (format->minus)
+	{
+		c = ' ';
+		ft_strcpy(res, s1);
+		ft_memset(res + len)
+	}
+}
+
 char	*process_zero_width(t_format *fomat, char *s1)
 {
 	char        *a;
