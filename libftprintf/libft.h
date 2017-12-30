@@ -30,7 +30,7 @@ typedef	struct			s_dict
 {
 	int					index;
 	char				*keyword;
-	char* 				(*func) (va_list, char*);
+	char				*(*func) (va_list, char*);
 	struct s_dict		*next;
 }						t_dict;
 

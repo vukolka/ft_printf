@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse_modifiers.c                                  :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/12/30 16:53:46 by mvukolov          #+#    #+#             */
+/*   Updated: 2017/12/30 16:54:06 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 #include "ft_printf.h"
 
@@ -40,9 +52,9 @@ void		parse_xsflags(t_format *current, char mod)
 		current->zero = 1;
 }
 
-int 		parse_conv(char *mods, t_format *current)
+int			parse_conv(char *mods, t_format *current)
 {
-	if(ft_strchr(MODSLIST, *mods))
+	if (ft_strchr(MODSLIST, *mods))
 	{
 		if (*mods == 'i')
 			*mods = 'd';
@@ -75,8 +87,8 @@ t_format	*parse_modifiers(char *mods, t_format *current)
 			mods++;
 		}
 		if (parse_conv(mods, current))
-			return current;
+			return (current);
 		mods++;
-	}	
+	}
 	return (NULL);
 }

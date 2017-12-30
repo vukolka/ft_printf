@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa_base.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/12/30 17:09:03 by mvukolov          #+#    #+#             */
+/*   Updated: 2017/12/30 17:09:05 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 #include <stdio.h>
 
@@ -14,7 +26,7 @@ static int	str_len(unsigned long long int n, int base)
 	return (i);
 }
 
-char	convert_letter(int a)
+char		convert_letter(int a)
 {
 	if (a == 10)
 		return ('a');
@@ -31,7 +43,7 @@ char	convert_letter(int a)
 	return (a + '0');
 }
 
-char*	ft_itoa_base(unsigned long long int n, int base)
+char		*ft_itoa_base(unsigned long long int n, int base)
 {
 	char				*ret;
 	int					i;

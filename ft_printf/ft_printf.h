@@ -1,11 +1,24 @@
-#ifndef FTPRINTF_H
-# define FTPRINTF_H
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/12/30 16:55:35 by mvukolov          #+#    #+#             */
+/*   Updated: 2017/12/30 16:55:36 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 # include <stdarg.h>
 # include <stdio.h>
 # include "libft.h"
 # define MODSLIST "sSpd%DioOuUxXcC"
 # define MODCHAR '%'
 # define MODSCHAR "lhjz"
+
 typedef struct	s_format
 {
 	int			sharp;
@@ -18,11 +31,14 @@ typedef struct	s_format
 	char		*format;
 	char		*format_mod;
 }				t_format;
-
+char			*process_space(char *s1);
+char			*process_sharp(t_format *format, char *s1);
+char			*process_precision(t_format *format, char *s1);
+void			subprocess_precision(char *res,
+									const char *src, int len, int period);
 int				ft_wstrlen(wchar_t *str);
-char		    *ft_format_uu(va_list ap, char *mod);
-int 		    validate_flags(t_format *current);
-char            *ft_format_percent(va_list ap, char *mod);
+char			*ft_format_uu(va_list ap, char *mod);
+char			*ft_format_percent(va_list ap, char *mod);
 char			*ft_format_xx(va_list ap, char *mod);
 char			*ft_format_x(va_list ap, char *mod);
 char			*ft_format_s(va_list ap, char *mod);
@@ -43,5 +59,4 @@ size_t			apply_format(const char **format, char **res, va_list ap);
 char			*process_format(t_format *current, va_list ap);
 char			*apply_flags(t_format *current, char *src);
 
-#endif 
-
+#endif
