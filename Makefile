@@ -17,9 +17,11 @@ $(NAME): $(OBJECTS)
 	$(MAKE) -C libftprintf/
 	ar rc libftprintf.a $(OBJECTS) libftprintf/*.o
 
-clean :
-	-rm -v $(OBJECTS)
+clean:
+	$(MAKE) -C libftprintf/ clean
+	-rm $(OBJECTS)
 fclean : clean
+	$(MAKE) -C libftprintf/ fclean
 	-rm -v $(NAME)
 re: fclean all
 
