@@ -13,7 +13,7 @@
 #include "libft.h"
 #include "ft_printf.h"
 
-static void checkifsupported(char *mod)
+static void		checkifsupported(char *mod)
 {
 	size_t i;
 
@@ -29,7 +29,7 @@ static void checkifsupported(char *mod)
 	}
 }
 
-size_t	apply_format(const char **format, char **res, va_list ap)
+size_t			apply_format(const char **format, char **res, va_list ap)
 {
 	int			i;
 	size_t		size;

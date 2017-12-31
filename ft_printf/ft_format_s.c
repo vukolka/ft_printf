@@ -38,6 +38,30 @@ char	*ft_format_s(va_list ap, char *mod)
 	return (res);
 }
 
+void	ft_putwchar_fd(wchar_t chr, int fd)
+{
+	if (chr <= 0x7F)
+		ft_putchar_fd(chr, fd);
+	else if (chr <= 0x7FF)
+	{
+		ft_putchar_fd((chr >> 6) + 0xC0, fd);
+		ft_putchar_fd((chr & 0x3F) + 0x80, fd);
+	}
+	else if (chr <= 0xFFFF)
+	{
+		ft_putchar_fd((chr >> 12) + 0xE0, fd);
+		ft_putchar_fd(((chr >> 6) & 0x3F) + 0x80, fd);
+		ft_putchar_fd((chr & 0x3F) + 0x80, fd);
+	}
+	else if (chr <= 0x10FFFF)
+	{
+		ft_putchar_fd((chr >> 18) + 0xF0, fd);
+		ft_putchar_fd(((chr >> 12) & 0x3F) + 0x80, fd);
+		ft_putchar_fd(((chr >> 6) & 0x3F) + 0x80, fd);
+		ft_putchar_fd((chr & 0x3F) + 0x80, fd);
+	}
+}
+
 char	*ft_format_ss(va_list ap, char *mod)
 {
 	wchar_t		*a;
@@ -47,18 +71,7 @@ char	*ft_format_ss(va_list ap, char *mod)
 	*mod = *mod;
 	i = 0;
 	a = va_arg(ap, wchar_t *);
-	res = ft_strnew(ft_wstrlen(a) * 2);
-	while (a[i])
-	{
-		if (a[i] < 128)
-			res[i] = (char)a[i];
-		else
-		{
-			res[i] = '?';
-			if (a[i] >= 0xD800 && a[i] <= 0xD8FF)
-				i++;
-		}
-		i++;
-	}
-	return (res);
+	while (*a)
+		ft_putwchar_fd(*a++, 1);
+	return (ft_strdup(""));
 }

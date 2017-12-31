@@ -39,8 +39,7 @@ int			get_modificator(const char *format, char **modstring)
 			res = 1;
 			break ;
 		}
-		else
-			i++;
+		i++;
 	}
 	free(formatlist);
 	if (res == 0)

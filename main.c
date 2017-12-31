@@ -6,7 +6,7 @@
 
 int		main()
 {
-	ft_printf("%-+10.5d", 4242);
-	printf("%-+10.5d", 4242);
+	ft_printf("%S\n", L"ебать его в рот");
+	ft_printf("%S\n", L"ебать его в рот");
 	return (0);
 }
