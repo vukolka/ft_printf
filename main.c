@@ -6,7 +6,7 @@
 
 int		main()
 {
-	ft_printf("ololoo: %f\n", "Hello World!");
+	ft_printf("{% %}", "Hello World!");
 	printf("ololoo: %s", "Hello World!");
 	return (0);
 }
