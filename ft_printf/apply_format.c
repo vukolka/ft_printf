@@ -19,6 +19,7 @@ static void checkifsupported(char *mod)
 	{
 		if (!(ft_strchr(SUPPORTED, *mod)))
 			exit(0);
+		mod ++;
 	}
 }
 
