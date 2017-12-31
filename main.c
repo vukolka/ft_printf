@@ -7,6 +7,5 @@
 int		main()
 {
 	ft_printf("%s\n", "Hello World");
-	ft_printf("%*ss", 23, "Hello World");
 	return (0);
 }

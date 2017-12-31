@@ -42,6 +42,7 @@ int			get_modificator(const char *format, char **modstring)
 		i++;
 	}
 	free(formatlist);
+	printf("modstrig: %s\n", *modstring);
 	if (res == 0)
 	{
 		*modstring = ft_strdup("0");
