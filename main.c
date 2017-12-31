@@ -6,6 +6,7 @@
 
 int		main()
 {
-	ft_printf("%s\n", "Hello World");
+	ft_printf("%-+10.5d", 4242);
+	printf("%-+10.5d", 4242);
 	return (0);
 }

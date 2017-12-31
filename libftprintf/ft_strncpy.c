@@ -22,6 +22,7 @@ char	*ft_strncpy(char *dst, const char *src, size_t len)
 		dst[i] = src[i];
 		i++;
 	}
+	dst[i] = 0;
 	while (i < len)
 	{
 		dst[i] = 0;

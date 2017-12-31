@@ -48,7 +48,6 @@ int				ft_printf(const char *format, ...)
 	char		*res;
 	size_t		size;
 
-	write(2, format, ft_strlen(format));
 	res = NULL;
 	va_start(ap, format);
 	size = process_result(format, ap, &res);
