@@ -38,11 +38,11 @@ size_t	apply_format(const char **format, char **res, va_list ap)
 
 	current = (t_format*)malloc(sizeof(t_format));
 	i = get_modificator(*format, &modstring);
-	checkifsupported(modstring);
 	*format += i;
 	parse_modifiers(modstring, current);
 	if (!(ft_strchr(MODSLIST, current->format[0])))
 		exit(0);
+	checkifsupported(modstring);
 	*res = process_format(current, ap);
 	size = ft_strlen(*res);
 	free(modstring);
