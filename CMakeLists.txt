@@ -21,7 +21,7 @@ set(SOURCE_FILES
         ft_printf/parse_modifiers.c
         ft_printf/apply_format.c
         main.c ft_printf/proccess_format.c
-        ft_printf/ft_format_percent.c main.c main.c ft_printf/apply_flags2.c)
+        ft_printf/ft_format_percent.c main.c main.c ft_printf/apply_flags2.c main.c)
 
 add_subdirectory(libftprintf)
 

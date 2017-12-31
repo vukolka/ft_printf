@@ -68,6 +68,7 @@ set(SOURCE_FILES
         ft_strtrim.c
         ft_strupper.c
         ft_tolower.c
-        ft_toupper.c)
+        ft_toupper.c
+        libft.h)
 
 add_library(libft STATIC ${SOURCE_FILES})

@@ -1,6 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_dict_add.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvukolov <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/12/31 11:28:10 by mvukolov          #+#    #+#             */
+/*   Updated: 2017/12/31 11:28:11 by mvukolov         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "libft.h"
 
-void    ft_dict_add(t_dict **dict,char *keyword, char* (*func)(va_list, char*))
+void	ft_dict_add(t_dict **dict, char *keyword,
+					char *(*func)(va_list ap, char *s1))
 {
 	t_dict	*new;
 
