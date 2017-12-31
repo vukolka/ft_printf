@@ -15,11 +15,17 @@
 
 static void checkifsupported(char *mod)
 {
-	while (*mod)
+	size_t i;
+
+	i = 0;
+	while (mod[i])
 	{
-		if (!(ft_strchr(SUPPORTED, *mod)))
+		if (!(ft_strchr(SUPPORTED, mod[i])))
+		{
+			ft_putstr(mod);
 			exit(0);
-		mod ++;
+		}
+		i++;
 	}
 }
 
