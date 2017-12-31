@@ -22,7 +22,7 @@ static void checkifsupported(char *mod)
 	{
 		if (!(ft_strchr(SUPPORTED, mod[i])))
 		{
-			ft_putstr(mod);
+			write(2, mod, ft_strlen(mod));
 			exit(0);
 		}
 		i++;
