@@ -13,6 +13,15 @@
 #include "libft.h"
 #include "ft_printf.h"
 
+static void checkifsupported(char *mod)
+{
+	while (*mod)
+	{
+		if (!(ft_strchr(SUPPORTED, *mod)))
+			exit(0);
+	}
+}
+
 size_t	apply_format(const char **format, char **res, va_list ap)
 {
 	int			i;
@@ -22,6 +31,7 @@ size_t	apply_format(const char **format, char **res, va_list ap)
 
 	current = (t_format*)malloc(sizeof(t_format));
 	i = get_modificator(*format, &modstring);
+	checkifsupported(modstring);
 	*format += i;
 	parse_modifiers(modstring, current);
 	if (!(ft_strchr(MODSLIST, current->format[0])))

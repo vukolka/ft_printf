@@ -6,7 +6,7 @@
 
 int		main()
 {
-	ft_printf("{% %}", "Hello World!");
-	printf("ololoo: %s", "Hello World!");
+	ft_printf("%*s\n", 23, "Hello World");
+	ft_printf("%*ss", 23, "Hello World");
 	return (0);
 }

@@ -18,6 +18,7 @@
 # define MODSLIST "sSpd%DioOuUxXcC"
 # define MODCHAR '%'
 # define MODSCHAR "lhjz"
+# define SUPPORTED "1234567890sSpd%DioOuUxXcClhjz#0 -+"
 
 typedef struct	s_format
 {
