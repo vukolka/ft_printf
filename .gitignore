@@ -1,2 +1,5 @@
 *.o
 ft_printf/*.o
+.idea
+main.c
+CMake*
