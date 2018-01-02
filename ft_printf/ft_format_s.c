@@ -65,7 +65,6 @@ void	ft_putwchar_fd(wchar_t chr, int fd)
 char	*ft_format_ss(va_list ap, char *mod)
 {
 	wchar_t		*a;
-	char		*res;
 	size_t		i;
 
 	*mod = *mod;
