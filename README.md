@@ -1,6 +1,6 @@
-#ft_printf
-##My implementation of standart c printf
-###Uses only following functions:
+# ft_printf
+## My implementation of standart c printf
+### Uses only following functions:
 man 2 write
 man 3:
 malloc()
